@@ -1,0 +1,3931 @@
+[ {
+    "Arıza Kodu": "P0001",
+    "Arıza Açıklaması": "Yakıt Ayar regülatörü Kontrol Açık Devre",
+    "Olası Nedenler": "kumanda hat: kesintisi"
+  },
+  {
+    "Arıza Kodu": "P0002",
+    "Arıza Açıklaması": "Yakıt Ayar regülatörü Kontrol Performans",
+    "Olası Nedenler": "Tesisat – Ayar Kontrol Selonoid"
+  },
+  {
+    "Arıza Kodu": "P0003",
+    "Arıza Açıklaması": "Yakıt Ayar regülatörü Kontrol Devresi Düşük",
+    "Olası Nedenler": "Sinyal : Şaseye kısa devre – Ayar Kontrol Selonoid"
+  },
+  {
+    "Arıza Kodu": "P0004",
+    "Arıza Açıklaması": "Yakıt Ayar regülatörü Kontrol Devresi Yüksek",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre – Ayar Kontrol Selonoid"
+  },
+  {
+    "Arıza Kodu": "P0005",
+    "Arıza Açıklaması": "Yakıt Kapatma Valfinde Açık Devre",
+    "Olası Nedenler": "Açık Devre – Yakıt Kapatma Valfi"
+  },
+  {
+    "Arıza Kodu": "P0006",
+    "Arıza Açıklaması": "Yakıt Kapatma Valfinde Sinyal Düşük",
+    "Olası Nedenler": "Sinyal : Şaseye kısa devre – Selonoid Valf"
+  },
+  {
+    "Arıza Kodu": "P0007",
+    "Arıza Açıklaması": "Yakıt Kapatma Valfinde Sinyal Yüksek",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre – Selonoid Valf"
+  },
+  {
+    "Arıza Kodu": "P0008",
+    "Arıza Açıklaması": "Motor Zamanlama Sisteminde Hata / Bank 1 Motor Performansı",
+    "Olası Nedenler": "Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0009",
+    "Arıza Açıklaması": "Motor Zamanlama Sisteminde Hata / Bank 2 Motor Performansı",
+    "Olası Nedenler": "Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0010",
+    "Arıza Açıklaması": "Kam Mili Giriş Sensörü /Ön/sol/ Bank 1 Devresinde Hata",
+    "Olası Nedenler": "Tesisat – Kam Mili Sensörü – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0011",
+    "Arıza Açıklaması": "Kam Mili Giriş Sensörü /Ön/sol/ Bank 1 Devresinde Zamanlama Hatası Düşük Performans (AVANS)",
+    "Olası Nedenler": "Valf Zamanlaması Kaçık – Motor Mekanik Hata – Kam mili Sezicisi"
+  },
+  {
+    "Arıza Kodu": "P0012",
+    "Arıza Açıklaması": "Kam Mili Giriş Sensörü /Ön/sol/ Bank 1 Devresinde Zamanlama Hatası Düşük Performans (ROTAR)",
+    "Olası Nedenler": "Valf Zamanlaması Kaçık – Motor Mekanik Hata – Kam mili Sezicisi"
+  },
+  {
+    "Arıza Kodu": "P0013",
+    "Arıza Açıklaması": "Kam Mili Giriş Sensörü /Ön/sol/ Bank 1 Devresinde Hata",
+    "Olası Nedenler": "Tesisat – Kam Mili Sensörü – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0014",
+    "Arıza Açıklaması": "Kam Mili Çıkış Sensörü /Arka/Sağ/ Bank 1 Devresinde Zamanlama Hatası Düşük Performans (AVANS)",
+    "Olası Nedenler": "Valf Zamanlaması Kaçık – Motor Mekanik Hata – Kam mili Sezicisi"
+  },
+  {
+    "Arıza Kodu": "P0015",
+    "Arıza Açıklaması": "Kam Mili Çıkış Sensörü /Arka/Sağ/ Bank 1 Devresinde Zamanlama Hatası Düşük Performans (ROTAR)",
+    "Olası Nedenler": "Valf Zamanlaması Kaçık – Motor Mekanik Hata – Kam mili Sezicisi"
+  },
+  {
+    "Arıza Kodu": "P0016",
+    "Arıza Açıklaması": "Krank Pozizyon Sensörü (Bank 1 SensörA)",
+    "Olası Nedenler": "Tesisat – Sensör – Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0017",
+    "Arıza Açıklaması": "Krank Pozizyon Sensörü (Bank 1 SensörB)",
+    "Olası Nedenler": "Tesisat – Sensör – Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0018",
+    "Arıza Açıklaması": "Krank Pozizyon Sensörü (Bank 2 SensörA)",
+    "Olası Nedenler": "Tesisat – Sensör – Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0019",
+    "Arıza Açıklaması": "Krank Pozizyon Sensörü (Bank 2 SensörB)",
+    "Olası Nedenler": "Tesisat – Sensör – Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0020",
+    "Arıza Açıklaması": "Kam Mili Giriş Sensörü /Ön/sol/ Bank 2 Devresinde Hata",
+    "Olası Nedenler": "Tesisat – Kam Mili Sensörü – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0021",
+    "Arıza Açıklaması": "Kam Mili Giriş Sensörü /Ön/sol/ Bank 2 Devresinde Zamanlama Hatası Düşük Performans (AVANS)",
+    "Olası Nedenler": "Valf Zamanlaması Kaçık – Motor Mekanik Hata – Kam mili Sezicisi"
+  },
+  {
+    "Arıza Kodu": "P0022",
+    "Arıza Açıklaması": "Kam Mili Giriş Sensörü /Ön/sol/ Bank 2 Devresinde Zamanlama Hatası Düşük Performans (ROTAR)",
+    "Olası Nedenler": "Valf Zamanlaması Kaçık – Motor Mekanik Hata – Kam mili Sezicisi"
+  },
+  {
+    "Arıza Kodu": "P0023",
+    "Arıza Açıklaması": "Kam Mili Giriş Sensörü /Ön/sol/ Bank 2 Devresinde Hata",
+    "Olası Nedenler": "Tesisat – Kam Mili Sensörü – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0024",
+    "Arıza Açıklaması": "Kam Mili Çıkış Sensörü /Arka/Sağ/ Bank 2 Devresinde Zamanlama Hatası Düşük Performans (AVANS)",
+    "Olası Nedenler": "Valf Zamanlaması Kaçık – Motor Mekanik Hata – Kam mili Sezicisi"
+  },
+  {
+    "Arıza Kodu": "P0025",
+    "Arıza Açıklaması": "Kam Mili Çıkış Sensörü /Arka/Sağ/ Bank 2 Devresinde Zamanlama Hatası Düşük Performans (ROTAR)",
+    "Olası Nedenler": "Valf Zamanlaması Kaçık – Motor Mekanik Hata – Kam mili Sezicisi"
+  },
+  {
+    "Arıza Kodu": "P0026",
+    "Arıza Açıklaması": "Giriş Valfi Kontrol Selonoid Devresi Bank 1 Performans",
+    "Olası Nedenler": "Giriş Valfleri Kontrol Selonoidi – Proğram"
+  },
+  {
+    "Arıza Kodu": "P0027",
+    "Arıza Açıklaması": "Çıkış Valfi Kontrol Selonoid Devresi Bank 1 Performans",
+    "Olası Nedenler": "Giriş Valfleri Kontrol Selonoidi – Proğram"
+  },
+  {
+    "Arıza Kodu": "P0028",
+    "Arıza Açıklaması": "Giriş Valfi Kontrol Selonoid Devresi Bank 2 Performans",
+    "Olası Nedenler": "Çıkış Valfleri Kontrol Selonoidi – Proğram"
+  },
+  {
+    "Arıza Kodu": "P0029",
+    "Arıza Açıklaması": "Çıkış Valfi Kontrol Selonoid Devresi Bank 2 Performans",
+    "Olası Nedenler": "Çıkış Valfleri Kontrol Selonoidi – Proğram"
+  },
+  {
+    "Arıza Kodu": "P0030",
+    "Arıza Açıklaması": "Lamda sondanın ıstma sistemi (Bank 1 Isıtma1)",
+    "Olası Nedenler": "kumanda : hat kesintisi – sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0031",
+    "Arıza Açıklaması": "Lamda sondanın ıstma sistemi (Bank 1 Isıtma1) Düşük",
+    "Olası Nedenler": "Kumanda : Şaseye kısa devre – sensör – Motor Elektroniğ"
+  },
+  {
+    "Arıza Kodu": "P0032",
+    "Arıza Açıklaması": "Lamda sondanın ıstma sistemi (Bank 1 Isıtma1) Yüksek",
+    "Olası Nedenler": "kumanda : artıya dogru kısa devre – sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0033",
+    "Arıza Açıklaması": "Turbo Vakum Ayar Valfinde Hata",
+    "Olası Nedenler": "Tesisat – Turbo Vakum Ayar Valfi – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0034",
+    "Arıza Açıklaması": "Turbo Vakum Ayar Valfinde Hata Devresi Düşük",
+    "Olası Nedenler": "Tesisat – Turbo Vakum Ayar Valfi – Motor Elektroniği – Kablo Bağlantıları Kontrol"
+  },
+  {
+    "Arıza Kodu": "P0035",
+    "Arıza Açıklaması": "Turbo Vakum Ayar Valfinde Hata Devresi Yüksek",
+    "Olası Nedenler": "Tesisat – Turbo Vakum Ayar Valfi – Motor Elektroniği – Kablo Bağlantıları Kontrol"
+  },
+  {
+    "Arıza Kodu": "P0036",
+    "Arıza Açıklaması": "O2 Sensörü 2 Bank 1 Isıtma Devresinde Hata",
+    "Olası Nedenler": "Tesisat – Sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0037",
+    "Arıza Açıklaması": "O2 Sensörü 2 Bank 1 Isıtma Devresi Düşük",
+    "Olası Nedenler": "Tesisat – Sensör – Motor Elektroniği – Eksiye Kısa Devre"
+  },
+  {
+    "Arıza Kodu": "P0038",
+    "Arıza Açıklaması": "O2 Sensörü 2 Bank 1 Isıtma Devresi Yüksek",
+    "Olası Nedenler": "Tesisat – Sensör – Motor Elektroniği – Artıya Kısa Devre"
+  },
+  {
+    "Arıza Kodu": "P0039",
+    "Arıza Açıklaması": "Turba Şarjı Bypass Valfinde Hata / Performans",
+    "Olası Nedenler": "Tesisat – Bypass Valfi"
+  },
+  {
+    "Arıza Kodu": "P0040",
+    "Arıza Açıklaması": "O2 Sensöründe Anlamsız Sinyal (Bank1 Sensör1) (Bank2 Sensör1)",
+    "Olası Nedenler": "Tesisat"
+  },
+  {
+    "Arıza Kodu": "P0041",
+    "Arıza Açıklaması": "O2 Sensöründe Anlamsız Sinyal (Bank1 Sensör2) (Bank2 Sensör2)",
+    "Olası Nedenler": "Tesisat"
+  },
+  {
+    "Arıza Kodu": "P0042",
+    "Arıza Açıklaması": "O2 Sensörü 3 Bank 1 Isıtma Devresinde Hata",
+    "Olası Nedenler": "Tesisat – Sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0043",
+    "Arıza Açıklaması": "O2 Sensörü 3 Bank 1 Isıtma Devresi Düşük",
+    "Olası Nedenler": "Tesisat – Sensör – Motor Elektroniği – Eksiye Kısa Devre"
+  },
+  {
+    "Arıza Kodu": "P0044",
+    "Arıza Açıklaması": "O2 Sensörü 3 Bank 1 Isıtma Devresi Yüksek",
+    "Olası Nedenler": "Tesisat – Sensör – Motor Elektroniği – Artıya Kısa Devre"
+  },
+  {
+    "Arıza Kodu": "P0045",
+    "Arıza Açıklaması": "Turbo Basınç Kontrol Selonoid Açık Devre",
+    "Olası Nedenler": "Tesisat – Basınç Kontrol Selonoid"
+  },
+  {
+    "Arıza Kodu": "P0046",
+    "Arıza Açıklaması": "Turbo Basınç Kontrol Selonoid Performans",
+    "Olası Nedenler": "Tesisat – Basınç Kontrol Selonoid – Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0047",
+    "Arıza Açıklaması": "Turbo Basınç Kontrol Selonoid Devresi Düşük",
+    "Olası Nedenler": "Tesisat – Eksiye Kısa Devre – Basınç Kontrol Selonoid"
+  },
+  {
+    "Arıza Kodu": "P0048",
+    "Arıza Açıklaması": "Turbo Basınç Kontrol Selonoid Devresi üksek",
+    "Olası Nedenler": "Tesisat – Artıya Kısa Devre – Basınç Kontrol Selonoid"
+  },
+  {
+    "Arıza Kodu": "P0049",
+    "Arıza Açıklaması": "Turbo Türbün Devri Düşük",
+    "Olası Nedenler": "Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0050",
+    "Arıza Açıklaması": "O2 Sensör 1 Bank 2 Isıtma Devresinde Hata",
+    "Olası Nedenler": "Tesisat – Sensör -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0051",
+    "Arıza Açıklaması": "O2 Sensör 1 Bank 2 Isıtma Devresi Düşük",
+    "Olası Nedenler": "Kumanda : Şaseye kısa devre – sensör – Motor Elektroniğ"
+  },
+  {
+    "Arıza Kodu": "P0052",
+    "Arıza Açıklaması": "O2 Sensör 1 Bank 2 Isıtma Devresi Yüksek",
+    "Olası Nedenler": "kumanda : artıya dogru kısa devre – sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0053",
+    "Arıza Açıklaması": "O2 Sensör Bank 1 Sensör 1 Isıtma Reistansı hata",
+    "Olası Nedenler": "Tesisat – O2 Sensör"
+  },
+  {
+    "Arıza Kodu": "P0054",
+    "Arıza Açıklaması": "O2 Sensör Bank 1 Sensör 2 Isıtma Reistansı hata",
+    "Olası Nedenler": "Tesisat – O2 Sensör"
+  },
+  {
+    "Arıza Kodu": "P0055",
+    "Arıza Açıklaması": "O2 Sensör Bank 1 Sensör 3 Isıtma Reistansı hata",
+    "Olası Nedenler": "Tesisat – O2 Sensör"
+  },
+  {
+    "Arıza Kodu": "P0056",
+    "Arıza Açıklaması": "O2 Sensör 2 Bank 2 Isıtma Devresinde Hata",
+    "Olası Nedenler": "Tesisat – Sensör -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0057",
+    "Arıza Açıklaması": "O2 Sensör 2 Bank 2 Isıtma Devresi Düşük",
+    "Olası Nedenler": "Kumanda : Şaseye kısa devre – sensör – Motor Elektroniğ"
+  },
+  {
+    "Arıza Kodu": "P0058",
+    "Arıza Açıklaması": "O2 Sensör 2 Bank 2 Isıtma Devresi Yüksek",
+    "Olası Nedenler": "kumanda : artıya dogru kısa devre – sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0059",
+    "Arıza Açıklaması": "Isıtma Reistansı hata",
+    "Olası Nedenler": "Tesisat – O2 Sensör"
+  },
+  {
+    "Arıza Kodu": "P0060",
+    "Arıza Açıklaması": "O2 Sensör Bank 2 Sensör 2 Isıtma Reistansı hata",
+    "Olası Nedenler": "Tesisat – O2 Sensör"
+  },
+  {
+    "Arıza Kodu": "P0061",
+    "Arıza Açıklaması": "O2 Sensör Bank 2 Sensör 3 Isıtma Reistansı hata",
+    "Olası Nedenler": "Tesisat – O2 Sensör"
+  },
+  {
+    "Arıza Kodu": "P0062",
+    "Arıza Açıklaması": "O2 Sensör 3 Bank 2 Isıtma Devresinde Hata",
+    "Olası Nedenler": "Tesisat – Sensör -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0063",
+    "Arıza Açıklaması": "O2 Sensör 2 Bank 2 Isıtma Devresi Düşük",
+    "Olası Nedenler": "Kumanda : Şaseye kısa devre – sensör – Motor Elektroniğ"
+  },
+  {
+    "Arıza Kodu": "P0064",
+    "Arıza Açıklaması": "O2 Sensör 2 Bank 2 Isıtma Devresi Yüksek",
+    "Olası Nedenler": "kumanda : artıya dogru kısa devre – sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0065",
+    "Arıza Açıklaması": "Havalı Yardımcı Enjektör Performans Hatası",
+    "Olası Nedenler": "Hava Yardımcı Enjektör"
+  },
+  {
+    "Arıza Kodu": "P0066",
+    "Arıza Açıklaması": "Havalı Yardımcı Enjektör Devresi Düşük",
+    "Olası Nedenler": "Kumanda : Şaseye kısa devre – sensör – Motor Elektroniğ"
+  },
+  {
+    "Arıza Kodu": "P0067",
+    "Arıza Açıklaması": "Havalı Yardımcı Enjektör Devresi Yüksek",
+    "Olası Nedenler": "kumanda : artıya dogru kısa devre – sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0068",
+    "Arıza Açıklaması": "Hava Giriş Kütle Ölçer / Bogaz Kelebeği Pozizyon Hatası",
+    "Olası Nedenler": "Tesisat – Hava Kütle ölçer – Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0069",
+    "Arıza Açıklaması": "Hava Giriş Kütle Ölçer / Hava basınç Kontrolü Hatalı",
+    "Olası Nedenler": "Hava Kütle ölçer – Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0070",
+    "Arıza Açıklaması": "Yan Çıkış Hava Sıcaklık Sensörü Devresinde Hata",
+    "Olası Nedenler": "Tesisat – Hava Sıcaklık Sensörü – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0071",
+    "Arıza Açıklaması": "Yan Çıkış Hava Sıcaklık Sensörü Performans Problemi",
+    "Olası Nedenler": "Yan Çıkış Hava Sıcaklık Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0072",
+    "Arıza Açıklaması": "Yan Çıkış Hava Sıcaklık Sensörü Giriş Sinyali Düşük",
+    "Olası Nedenler": "Kumanda : Şaseye kısa devre – sensör – Motor Elektroniğ"
+  },
+  {
+    "Arıza Kodu": "P0073",
+    "Arıza Açıklaması": "Yan Çıkış Hava Sıcaklık Sensörü Giriş Sinyali Düşük",
+    "Olası Nedenler": "kumanda : artıya dogru kısa devre – sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0074",
+    "Arıza Açıklaması": "Yan Çıkış Hava Sıcaklık Sensörü Giriş Sinyali Aralıklı",
+    "Olası Nedenler": "Pin Bağlantıları – Motor Elektroniği – Proğram – Yan Çıkış Hava Sıcaklık Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0075",
+    "Arıza Açıklaması": "Giriş Kontrol Valfi Selonoid Bank1 Devresinde Hata",
+    "Olası Nedenler": "Tesisat Giriş Selonoid Valfi – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0076",
+    "Arıza Açıklaması": "Giriş Kontrol Valfi Selonoid Bank1 Devresi Düşük",
+    "Olası Nedenler": "Kumanda : Şaseye kısa devre – sensör – Motor Elektroniğ"
+  },
+  {
+    "Arıza Kodu": "P0077",
+    "Arıza Açıklaması": "Giriş Kontrol Valfi Selonoid Bank1 Devresi Yüksek",
+    "Olası Nedenler": "kumanda : artıya dogru kısa devre – sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0078",
+    "Arıza Açıklaması": "Çıkış Kontrol Valfi Selonoid Bank1 Devresinde Hata",
+    "Olası Nedenler": "Tesisat Giriş Selonoid Valfi – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0079",
+    "Arıza Açıklaması": "Çıkış Kontrol Valfi Selonoid Bank1 Devresi Düşük",
+    "Olası Nedenler": "Kumanda : Şaseye kısa devre – sensör – Motor Elektroniğ"
+  },
+  {
+    "Arıza Kodu": "P0080",
+    "Arıza Açıklaması": "Çıkış Kontrol Valfi Selonoid Bank1 Devresi Yüksek",
+    "Olası Nedenler": "kumanda : artıya dogru kısa devre – sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0081",
+    "Arıza Açıklaması": "Giriş Kontrol Valfi Selonoid Bank2 Devresinde Hata",
+    "Olası Nedenler": "Tesisat Giriş Selonoid Valfi – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0082",
+    "Arıza Açıklaması": "Giriş Kontrol Valfi Selonoid Bank2 Devresi Düşük",
+    "Olası Nedenler": "Kumanda : Şaseye kısa devre – sensör – Motor Elektroniğ"
+  },
+  {
+    "Arıza Kodu": "P0083",
+    "Arıza Açıklaması": "Giriş Kontrol Valfi Selonoid Bank2 Devresi Yüksek",
+    "Olası Nedenler": "kumanda : artıya dogru kısa devre – sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0084",
+    "Arıza Açıklaması": "Çıkış Kontrol Valfi Selonoid Bank2 Devresinde Hata",
+    "Olası Nedenler": "Tesisat- Giriş Selonoid Valfi – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0085",
+    "Arıza Açıklaması": "Çıkış Kontrol Valfi Selonoid Bank2 Devresi Düşük",
+    "Olası Nedenler": "Kumanda : Şaseye kısa devre – sensör – Motor Elektroniğ"
+  },
+  {
+    "Arıza Kodu": "P0086",
+    "Arıza Açıklaması": "Çıkış Kontrol Valfi Selonoid Bank2 Devresi Yüksek",
+    "Olası Nedenler": "kumanda : artıya dogru kısa devre – sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0087",
+    "Arıza Açıklaması": "Yakıt Ortak Basınç sistemi Düşük",
+    "Olası Nedenler": "Yakıt Pompası – Yakıt Basınç ayarlayıcısı – Yakıt Çıkış Gücü Bloke – Mekanik hata"
+  },
+  {
+    "Arıza Kodu": "P0088",
+    "Arıza Açıklaması": "Yakıt Ortak Basınç sistemi Yüksek",
+    "Olası Nedenler": "Yakıt Pompası – Yakıt Basınç ayarlayıcısı – Yakıt Giriş Gücü Bloke – Mekanik hata"
+  },
+  {
+    "Arıza Kodu": "P0089",
+    "Arıza Açıklaması": "Yakıt Basınç Ayarlayıcısı Performans Hatası",
+    "Olası Nedenler": "Yakıt Basınç Ayarlayıcısı – Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0090",
+    "Arıza Açıklaması": "Yakıt Ölçme Selonoidi Açık Devre",
+    "Olası Nedenler": "Açık Devre – Yakıt Ölçme Selonoid – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0091",
+    "Arıza Açıklaması": "Yakıt Ölçme Selonoidi Eksiye Kısa Devre",
+    "Olası Nedenler": "Kumanda : Şaseye kısa devre – sensör – Motor Elektroniğ"
+  },
+  {
+    "Arıza Kodu": "P0092",
+    "Arıza Açıklaması": "Yakıt Ölçme Selonoidi Artıya Kısa Devre",
+    "Olası Nedenler": "kumanda : artıya dogru kısa devre – sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0093",
+    "Arıza Açıklaması": "Yakıt Sistemi Yüksek Miktarda Kaçak Var",
+    "Olası Nedenler": "Kablo sistemi – Basınç Sensör – Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0094",
+    "Arıza Açıklaması": "Yakıt Sistemi Düşük Miktarda Kaçak Var",
+    "Olası Nedenler": "Kablo sistemi – Basınç Sensör – Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0095",
+    "Arıza Açıklaması": "Giriş hava sıcaklığı sensör 2 Devresinde hata",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Baglantıları-Sensör-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0096",
+    "Arıza Açıklaması": "Giriş hava sıcaklığı sensör 2 Devresinde Performans Hatası",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Baglantıları-Sensör-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0097",
+    "Arıza Açıklaması": "Giriş hava sıcaklığı sensör 2 Devresinde Giriş sinyali düşük",
+    "Olası Nedenler": "Kumanda : Şaseye kısa devre – sensör açık devre- Motor elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0098",
+    "Arıza Açıklaması": "Giriş hava sıcaklığı sensör 2 Devresinde Giriş Sinyali Yüksek",
+    "Olası Nedenler": "Kumanda : Artıya kısa devre – sensör kısa devre- Motor elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0099",
+    "Arıza Açıklaması": "Giriş hava sıcaklığı sensör 2 Devresinde Aralıklarla",
+    "Olası Nedenler": "Tesisat-Gevşek Pin ve kablo Baglantıları-Sensör-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0100",
+    "Arıza Açıklaması": "Hava Kütle Ölçer/Hava Ayar Valfi Sensör devre Arızası",
+    "Olası Nedenler": "Tesisat-Hava Kütle Ölçeri – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0101",
+    "Arıza Açıklaması": "Hava Kütle Ölçer devre Sınırı / Performans Sorunu",
+    "Olası Nedenler": "Giriş Valfleri Kontrol Selonoidi – Proğram"
+  },
+  {
+    "Arıza Kodu": "P0102",
+    "Arıza Açıklaması": "hava kütle ölçer giriş sinyali düşük",
+    "Olası Nedenler": "Hava kütlesi çok düşük (sinyal frekansı çok düşük)"
+  },
+  {
+    "Arıza Kodu": "P0103",
+    "Arıza Açıklaması": "hava kütle ölçer giriş sinyali yüksek",
+    "Olası Nedenler": "hava kütlesi çok yüksek (sinyal frekansı çok yüksek)"
+  },
+  {
+    "Arıza Kodu": "P0104",
+    "Arıza Açıklaması": "hava kütler ölçer devresinde arasıra meydana gelen arıza",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Baglantıları-Sensör-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0105",
+    "Arıza Açıklaması": "manifold basınç sensörü devresinde arıza",
+    "Olası Nedenler": "Tesisat-Manifold basınç sensörü (barametrik sensör)-Motor elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0106",
+    "Arıza Açıklaması": "manifold basınç sensörü performans arızası",
+    "Olası Nedenler": "Manifold Giriş ve çıkış devresinde sızıntı-Proğram-Hava akış sensörü-Barometrik sensör"
+  },
+  {
+    "Arıza Kodu": "P0107",
+    "Arıza Açıklaması": "manifold basınç sezicisi giriş sinyali düşük",
+    "Olası Nedenler": "Hat eksiye Kısa devre- Hava kütle ölçer-Barometrik sensör-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0108",
+    "Arıza Açıklaması": "manifold basınç sezicisi giriş sinyali yüksek",
+    "Olası Nedenler": "Hat Artıya Kısa devre- Hava kütle ölçer-Barometrik sensör-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0109",
+    "Arıza Açıklaması": "manifold basınç sezicisi devresinde arasıra meydana gelen arıza",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Baglantıları-Sensör-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0110",
+    "Arıza Açıklaması": "giriş hava sıcaklık sezicisi devresinde arıza",
+    "Olası Nedenler": "Tesisat-sensör -motor elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0111",
+    "Arıza Açıklaması": "giriş hava sıcaklık sezicisi devresinde giriş sinyali performans hatası",
+    "Olası Nedenler": "Sensör"
+  },
+  {
+    "Arıza Kodu": "P0112",
+    "Arıza Açıklaması": "giriş hava sıcaklık sezicisi devresinde giriş sinyali düşük",
+    "Olası Nedenler": "Hat eksiye Kısa devre-Sensörde açık devre-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0113",
+    "Arıza Açıklaması": "giriş hava sıcaklık sezicisi devresinde giriş sinyali yüksek",
+    "Olası Nedenler": "hararet çok yüksek veya sinyal artıya veya şaseye hat kesintisi yada kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0114",
+    "Arıza Açıklaması": "giriş hava sıcaklık sezicisi devresinde giriş sinyali arasıra",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Baglantıları-Sensör-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0115",
+    "Arıza Açıklaması": "Motor Sogutma Suyu Sıcaklık sezicisinde hata",
+    "Olası Nedenler": "Tesisat-sensör -motor elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0116",
+    "Arıza Açıklaması": "Motor Sogutma Suyu Sıcaklık sezicisinde Performansı Kötü",
+    "Olası Nedenler": "Termostat-Gevşek pin baglantıları-sensör-Program"
+  },
+  {
+    "Arıza Kodu": "P0117",
+    "Arıza Açıklaması": "Motor Sogutma Suyu Sıcaklık sezicisinde Giriş sinyali düşük",
+    "Olası Nedenler": "Termostat-Gevşek pin baglantıları-sensör-Program-Eksiye kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0118",
+    "Arıza Açıklaması": "Motor Sogutma Suyu Sıcaklık sezicisinde Giriş sinyali Yüksek",
+    "Olası Nedenler": "Termostat-Gevşek pin baglantıları-sensör-Program-Artıya kısa devre Eksiye Açık devre"
+  },
+  {
+    "Arıza Kodu": "P0119",
+    "Arıza Açıklaması": "Motor Sogutma Suyu Sıcaklık sezicisinde Giriş sinyali Arasıra",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Baglantıları-Sensör-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0120",
+    "Arıza Açıklaması": "Bogaz kelebeği pozizyon sensörü-gaz pedalı pozizyon sensör 1 devresi de arıza",
+    "Olası Nedenler": "Tesisat-Bogaz kelebegi gaz Pedalı Sensörü -Motor elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0121",
+    "Arıza Açıklaması": "Bogaz kelebeği pozizyon sensörü-gaz pedalı pozizyon sensör 1 devresi de perfomans arızası",
+    "Olası Nedenler": "Program-Bogaz kelebegi gaz Pedalı Sensörü -Motor elektroniği-Kablo baglantılarında hata/Ayarlama ve düzeltme hatası"
+  },
+  {
+    "Arıza Kodu": "P0122",
+    "Arıza Açıklaması": "Bogaz kelebeği pozizyon sensörü-gaz pedalı pozizyon sensör 1 devresi de giriş siyali düşük",
+    "Olası Nedenler": "Kumanda : Şaseye kısa devre – sensör – Motor Elektroniğ"
+  },
+  {
+    "Arıza Kodu": "P0123",
+    "Arıza Açıklaması": "Bogaz kelebeği pozizyon sensörü-gaz pedalı pozizyon sensör 1 devresi de giriş siyali yüksek",
+    "Olası Nedenler": "kumanda : artıya dogru kısa devre – sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0124",
+    "Arıza Açıklaması": "Bogaz kelebeği pozizyon sensörü-gaz pedalı pozizyon sensör 1 devresi de aralıklarla meydana gelen arıza",
+    "Olası Nedenler": "gevşek kablo veya pin baglantıları"
+  },
+  {
+    "Arıza Kodu": "P0125",
+    "Arıza Açıklaması": "Kapalı Devre Yakıt Kontrolü İçin Yetersiz Sogutma Sıvısı Isısı",
+    "Olası Nedenler": "termostat veya sensör devresi arızası"
+  },
+  {
+    "Arıza Kodu": "P0126",
+    "Arıza Açıklaması": "Sabit Çalışma İçin Yetersiz Sogutma Sıvısı Isısı",
+    "Olası Nedenler": "termostat veya sensör devresi arızası"
+  },
+  {
+    "Arıza Kodu": "P0127",
+    "Arıza Açıklaması": "Giriş hava sıcaklığı çok yüksek",
+    "Olası Nedenler": "Sensör arızası – mekanik arıza yada dijital motor elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0128",
+    "Arıza Açıklaması": "Sogutma Sıvısı Termostat Arızası",
+    "Olası Nedenler": "termostat mekanik arıza"
+  },
+  {
+    "Arıza Kodu": "P0129",
+    "Arıza Açıklaması": "Atmosferik basınç fazla düşük",
+    "Olası Nedenler": "Tesisat – sensör arızası – mekanik arıza"
+  },
+  {
+    "Arıza Kodu": "P0130",
+    "Arıza Açıklaması": "O2 Sensörü Arızası (Bank1 Sensör1)",
+    "Olası Nedenler": "bank 1 devresinde kısa devre- bank1 sensörü ME- program"
+  },
+  {
+    "Arıza Kodu": "P0131",
+    "Arıza Açıklaması": "O2 Sensör Sensörü Düşük Voltaj (Bank1 Sensör1)",
+    "Olası Nedenler": "bank 1 devresinde kısa devre- bank1 sensörü ME- program"
+  },
+  {
+    "Arıza Kodu": "P0132",
+    "Arıza Açıklaması": "O2 Sensör Devresi Yüksek Voltaj (Bank1 Sensör1)",
+    "Olası Nedenler": "Artıya dogru kısa devre – sensör – ME arızası"
+  },
+  {
+    "Arıza Kodu": "P0133",
+    "Arıza Açıklaması": "O2 Sensör Devresi Yavaş Tepki (Bank1 Sensör1)",
+    "Olası Nedenler": "lamda ıstma arızası-program- sensör"
+  },
+  {
+    "Arıza Kodu": "P0134",
+    "Arıza Açıklaması": "O2 Sensör Devresinde Hareketlilik Tespit Edilemedi (Bank1 Sensör1)",
+    "Olası Nedenler": "yazılım açık devre-Lamda ısıtması – sensör"
+  },
+  {
+    "Arıza Kodu": "P0135",
+    "Arıza Açıklaması": "O2 Sensör Isıtıcı Devre Arızası (Bank1 Sensör1)",
+    "Olası Nedenler": "sigorta-Tesisat-Sensör-ME"
+  },
+  {
+    "Arıza Kodu": "P0136",
+    "Arıza Açıklaması": "O2 Devresi Arızası (Bank1 Sensör2)",
+    "Olası Nedenler": "bank 1 devresinde kısa devre- bank1 sensörü ME-Tesisat"
+  },
+  {
+    "Arıza Kodu": "P0137",
+    "Arıza Açıklaması": "O2 Sensör Devresi Düşük Voltaj (Bank1 Sensör2)",
+    "Olası Nedenler": "bank 1 devresinde kısa devre- bank1 sensörü ME- Tesisat"
+  },
+  {
+    "Arıza Kodu": "P0138",
+    "Arıza Açıklaması": "O2 Sensör Devresi Yüksek Voltaj (Bank1 Sensör2)",
+    "Olası Nedenler": "Artıya dogru kısa devre – sensör – ME arızası"
+  },
+  {
+    "Arıza Kodu": "P0139",
+    "Arıza Açıklaması": "O2 Sensör Devresi Yavaş Tepki (Bank1 Sensör2)",
+    "Olası Nedenler": "lamda ıstma arızası-Tesisat- sensör"
+  },
+  {
+    "Arıza Kodu": "P0140",
+    "Arıza Açıklaması": "O2 Sensör Devresi Hareketlilik Tespit Edilemedi (Bank1 Sensör2)",
+    "Olası Nedenler": "yazılım açık devre-Lamda ısıtması – sensör"
+  },
+  {
+    "Arıza Kodu": "P0141",
+    "Arıza Açıklaması": "O2 Sensör Isıtıcı Devre Arızası (Bank1 Sensör2)",
+    "Olası Nedenler": "sigorta-program-Sensör-ME"
+  },
+  {
+    "Arıza Kodu": "P0142",
+    "Arıza Açıklaması": "O2 Sensör Devresi Arızası (Bank1 Sensör3)",
+    "Olası Nedenler": "bank 1 devresinde kısa devre- bank1 sensörü ME- Tesisat"
+  },
+  {
+    "Arıza Kodu": "P0143",
+    "Arıza Açıklaması": "O2 Sensör Devresi Düşük Voltaj (Bank1 Sensör3)",
+    "Olası Nedenler": "bank 1 devresinde kısa devre- bank1 sensörü ME- Tesisat"
+  },
+  {
+    "Arıza Kodu": "P0144",
+    "Arıza Açıklaması": "O2 Sensör Devresi Yüksek Voltaj (Bank1 Sensör3)",
+    "Olası Nedenler": "Artıya dogru kısa devre – sensör – ME arızası"
+  },
+  {
+    "Arıza Kodu": "P0145",
+    "Arıza Açıklaması": "O2 Sensör Devresi Yavaş Tepki (Bank1 Sensör3)",
+    "Olası Nedenler": "lamda ıstma arızasıTesisat sensör"
+  },
+  {
+    "Arıza Kodu": "P0146",
+    "Arıza Açıklaması": "O2 Sensör Devresi Hareketlilik Tespit Edilemedi (Bank1 Sensör3)",
+    "Olası Nedenler": "yazılım açık devre-Lamda ısıtması – sensör"
+  },
+  {
+    "Arıza Kodu": "P0147",
+    "Arıza Açıklaması": "O2 Sensör Isıtıcı Devresi Arızası (Bank1 Sensör3)",
+    "Olası Nedenler": "sigorta-program-Sensör-ME"
+  },
+  {
+    "Arıza Kodu": "P0148",
+    "Arıza Açıklaması": "Yakıt dağıtım sisteminde hata",
+    "Olası Nedenler": "Benzin pompası / Enjektör arızası"
+  },
+  {
+    "Arıza Kodu": "P0149",
+    "Arıza Açıklaması": "yakıt sistemi zamanlama arızası",
+    "Olası Nedenler": "Benzin pompası / Enjektör arızası"
+  },
+  {
+    "Arıza Kodu": "P0150",
+    "Arıza Açıklaması": "O2 Sensör Devre Arızası (Bank2 Sensör1)",
+    "Olası Nedenler": "yazılım açık devre-Lamda ısıtması – sensör"
+  },
+  {
+    "Arıza Kodu": "P0151",
+    "Arıza Açıklaması": "O2 Sensör Devresi Düşük Voltaj (Bank2 Sensör1)",
+    "Olası Nedenler": "sigorta-Tesisat-Sensör-ME"
+  },
+  {
+    "Arıza Kodu": "P0152",
+    "Arıza Açıklaması": "O2 Sensör Devresi Yüksek Voltaj (Bank2 Sensör1)",
+    "Olası Nedenler": "Artıya dogru kısa devre – sensör – ME arızası"
+  },
+  {
+    "Arıza Kodu": "P0153",
+    "Arıza Açıklaması": "O2 Sensör Devresi Yavaş Tepki (Bank2 Sensör1)",
+    "Olası Nedenler": "lamda ıstma arızası-Tesisat- sensör"
+  },
+  {
+    "Arıza Kodu": "P0154",
+    "Arıza Açıklaması": "O2 Sensör Devresi Hareketlilik Tespit Edilmedi (Bank2 Sensör1)",
+    "Olası Nedenler": "yazılım açık devre-Lamda ısıtması – sensör"
+  },
+  {
+    "Arıza Kodu": "P0155",
+    "Arıza Açıklaması": "O2 Sensör Isıtıcı Devresi Arızası (Bank2 Sensör1)",
+    "Olası Nedenler": "sigorta-Tesisat-Sensör-ME"
+  },
+  {
+    "Arıza Kodu": "P0156",
+    "Arıza Açıklaması": "O2 Sensör Devre Arızası (Bank2 Sensör2)",
+    "Olası Nedenler": "yazılım açık devre-Lamda ısıtması – sensör"
+  },
+  {
+    "Arıza Kodu": "P0157",
+    "Arıza Açıklaması": "O2 Sensör Devresi Düşük Voltaj (Bank2 Sensör2)",
+    "Olası Nedenler": "sigorta-Tesisat-Sensör-ME"
+  },
+  {
+    "Arıza Kodu": "P0158",
+    "Arıza Açıklaması": "O2 Sensör Devresi Yüksek Voltaj (Bank2 Sensör2)",
+    "Olası Nedenler": "Artıya dogru kısa devre – sensör – ME arızası"
+  },
+  {
+    "Arıza Kodu": "P0159",
+    "Arıza Açıklaması": "O2 Sensör Devresi Yavaş Tepki (Bank2 Sensör2)",
+    "Olası Nedenler": "lamda ıstma arızası-Tesisat- sensör"
+  },
+  {
+    "Arıza Kodu": "P0160",
+    "Arıza Açıklaması": "O2 Sensör Devresi Hareketlilik Tespit Edilmedi (Bank2 Sensör2)",
+    "Olası Nedenler": "yazılım açık devre-Lamda ısıtması – sensör"
+  },
+  {
+    "Arıza Kodu": "P0161",
+    "Arıza Açıklaması": "O2 Sensör Isıtıcı Devresi Arızası (Bank2 Sensör2)",
+    "Olası Nedenler": "sigorta-Tesisat-Sensör-ME"
+  },
+  {
+    "Arıza Kodu": "P0162",
+    "Arıza Açıklaması": "O2 Sensör Devre Arızası (Bank2 Sensör3)",
+    "Olası Nedenler": "yazılım açık devre-Lamda ısıtması – sensör"
+  },
+  {
+    "Arıza Kodu": "P0163",
+    "Arıza Açıklaması": "O2 Sensör Devresi Düşük Voltaj (Bank2 Sensör3)",
+    "Olası Nedenler": "sigortaTesisat-Sensör-ME"
+  },
+  {
+    "Arıza Kodu": "P0164",
+    "Arıza Açıklaması": "O2 Sensör Devresi Yüksek Voltaj (Bank2 Sensör3)",
+    "Olası Nedenler": "Artıya dogru kısa devre – sensör – ME arızası"
+  },
+  {
+    "Arıza Kodu": "P0165",
+    "Arıza Açıklaması": "O2 Sensör Devresi Yavaş Tepki (Bank2 Sensör3)",
+    "Olası Nedenler": "lamda ıstma arızası-Tesisat- sensör"
+  },
+  {
+    "Arıza Kodu": "P0166",
+    "Arıza Açıklaması": "O2 Sensör Devresi Hareketlilik Tespit Edilmedi (Bank2 Sensör3)",
+    "Olası Nedenler": "yazılım açık devre-Lamda ısıtması – sensör"
+  },
+  {
+    "Arıza Kodu": "P0167",
+    "Arıza Açıklaması": "O2 Sensör Isıtıcı Devresi Arızası (Bank2 Sensör3)",
+    "Olası Nedenler": "sigorta-Tesisat-Sensör-ME"
+  },
+  {
+    "Arıza Kodu": "P0168",
+    "Arıza Açıklaması": "Yakıt sıcaklığı fazla yüksek",
+    "Olası Nedenler": "Tesisat – yakıt sıcaklık sensör arızası – mekanik arıza"
+  },
+  {
+    "Arıza Kodu": "P0169",
+    "Arıza Açıklaması": "Yanlış yakıt karışımı",
+    "Olası Nedenler": "Tesisat – yakıt sıcaklık sensör arızası – mekanik arıza"
+  },
+  {
+    "Arıza Kodu": "P0170",
+    "Arıza Açıklaması": "Yakıt Ayar Arızası (Bank 1 )",
+    "Olası Nedenler": "içeri giren hava miktar arızası – yakıt basınçı arızası – pompa – enjektör – depo hava alma valfi"
+  },
+  {
+    "Arıza Kodu": "P0171",
+    "Arıza Açıklaması": "Sistem Çok Zayıf (Bank 1)",
+    "Olası Nedenler": "içeri giren hava miktar arızası – yakıt basınçı arızası – pompa – enjektör – depo hava alma valfi"
+  },
+  {
+    "Arıza Kodu": "P0172",
+    "Arıza Açıklaması": "Sistem Çok Zengin (Bank 1)",
+    "Olası Nedenler": "içeri giren hava miktar arızası – yakıt basınçı arızası – pompa – enjektör – depo hava alma valfi"
+  },
+  {
+    "Arıza Kodu": "P0173",
+    "Arıza Açıklaması": "Yakıt Ayar Arızası (Bank 2)",
+    "Olası Nedenler": "içeri giren hava miktar arızası – yakıt basınçı arızası – pompa – enjektör – depo hava alma valfi"
+  },
+  {
+    "Arıza Kodu": "P0174",
+    "Arıza Açıklaması": "Sistem Çok Zayıf (Bank 2)",
+    "Olası Nedenler": "içeri giren hava miktar arızası – yakıt basınçı arızası – pompa – enjektör – depo hava alma valfi EGR valfi"
+  },
+  {
+    "Arıza Kodu": "P0175",
+    "Arıza Açıklaması": "Sistem Çok Zengin (Bank 2)",
+    "Olası Nedenler": "Yakıt Pozizyon Sensörü – ME -Tesisat"
+  },
+  {
+    "Arıza Kodu": "P0176",
+    "Arıza Açıklaması": "Yakıt Karışım Devre Arızası",
+    "Olası Nedenler": "Yakıt Pozizyon Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0177",
+    "Arıza Açıklaması": "Yakıt Karışım Devre Sınırı / Performansı",
+    "Olası Nedenler": "Yakıt Pozizyon Sensörü Kısa Devre – ME"
+  },
+  {
+    "Arıza Kodu": "P0178",
+    "Arıza Açıklaması": "Yakıt Karışım Sensör Devresi Düşük Girişi",
+    "Olası Nedenler": "Yakıt Pozizyon Sensörü Kısa Devre – ME"
+  },
+  {
+    "Arıza Kodu": "P0179",
+    "Arıza Açıklaması": "Yakıt Karışımı Sensör Devresi Yüksek Girişi",
+    "Olası Nedenler": "Program – Yakıt sıcaklık sensör arızası – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0180",
+    "Arıza Açıklaması": "Yakıt Isı Sensörü A Devre Arızası",
+    "Olası Nedenler": "Yakıt Sıcaklık Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0181",
+    "Arıza Açıklaması": "Yakıt Isı Sensörü A Devre Sınırı / Performansı",
+    "Olası Nedenler": "Eksiye Kısa Devre – Yakıt Sıcaklık Sensörü – Tesisat – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0182",
+    "Arıza Açıklaması": "Yakıt Isı Sensörü A Devresi Düşük Girişi",
+    "Olası Nedenler": "Artıya Kısa Devre – Yakıt Sıcaklık Sensörü -Tesisat – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0183",
+    "Arıza Açıklaması": "Yakıt Isı Sensörü A Devresi Yüksek Girişi",
+    "Olası Nedenler": "Tesisat – Zayıf Konnektör Bğlantıları – Yakıt Sıcaklık Sensörü – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0184",
+    "Arıza Açıklaması": "Yakıt Isı Sensörü A Devresi Aralıkları",
+    "Olası Nedenler": "Tesisat – Yakıt Sıcaklık Sensörü – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0185",
+    "Arıza Açıklaması": "Yakıt Isı Sensörü B Devre Arızası",
+    "Olası Nedenler": "Yakıt Sıcaklık Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0186",
+    "Arıza Açıklaması": "Yakıt Isı Sensörü B Devre Sınırı / Performansı",
+    "Olası Nedenler": "Eksiye Kısa Devre – Yakıt Sıcaklık Sensörü -Tesisat – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0187",
+    "Arıza Açıklaması": "Yakıt Isı Sensörü B Devresi Düşük Girişi",
+    "Olası Nedenler": "Artıya Kısa Devre – Yakıt Sıcaklık Sensörü – Tesisat – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0188",
+    "Arıza Açıklaması": "Yakıt Isı Sensörü B Devresi Yüksek Girişi",
+    "Olası Nedenler": "Tesisat – Zayıf Konnektör Bğlantıları – Yakıt Sıcaklık Sensörü – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0189",
+    "Arıza Açıklaması": "Yakıt Isı Sensörü B Devresi Aralıkları",
+    "Olası Nedenler": "Tesisat – Yakıt Sıcaklık Sensörü – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0190",
+    "Arıza Açıklaması": "Yakıt Hattı Basınç Sensör Devre Arızası",
+    "Olası Nedenler": "Tesisat – Ray Basıncı Sezicisi Arızası"
+  },
+  {
+    "Arıza Kodu": "P0191",
+    "Arıza Açıklaması": "Yakıt Hattı Basınç Sensör Devre Sınırı / Performansı",
+    "Olası Nedenler": "Tesisat – Ray Basıncı Sezicisi Arızası – Eksiye Kısa Devre"
+  },
+  {
+    "Arıza Kodu": "P0192",
+    "Arıza Açıklaması": "Yakıt Hattı Basınç Sensör Devre Düşük Girişi",
+    "Olası Nedenler": "Tesisat – Ray Basıncı Sezicisi Arızası – Artıya Kısa Devre"
+  },
+  {
+    "Arıza Kodu": "P0193",
+    "Arıza Açıklaması": "Yakıt Hattı Basınç Sensör Devre Yüksek Girişi",
+    "Olası Nedenler": "Tesisat – Zayıf Konnektör Bğlantıları – Yakıt Sıcaklık Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0194",
+    "Arıza Açıklaması": "Yakıt Ray basıncı Devresinde Aralıklarla",
+    "Olası Nedenler": "Tesisat – Gevşek Pin Bağlantıları – Sensör"
+  },
+  {
+    "Arıza Kodu": "P0195",
+    "Arıza Açıklaması": "Motor Yağ Sıcaklık Sensör Devresinde Arıza (EOT)",
+    "Olası Nedenler": "Tesisat – Motor Yağ Sıcaklık Sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0196",
+    "Arıza Açıklaması": "Motor Yağı Isı Sensörü Devre Arızası",
+    "Olası Nedenler": "Motor Yağ Sıcaklık Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0197",
+    "Arıza Açıklaması": "Motor Yağı Isı Sensörü Giriş Sinyali Düşük",
+    "Olası Nedenler": "Tesisat – Eksiye Kısa Devre – Motor Yağı Sıcaklık Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0198",
+    "Arıza Açıklaması": "Motor Yağı Isı Sensörü Giriş Sinyali Yüksek",
+    "Olası Nedenler": "Tesisat- Artıya Kısa Devre – Motor Yağı Sıcaklık Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0199",
+    "Arıza Açıklaması": "Motor Yağı Isı Sensörü Aralıklar",
+    "Olası Nedenler": "Gevşek kablo veya pin baglantıları – Tesisat – Sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0200",
+    "Arıza Açıklaması": "Enjektör Devre Arızası",
+    "Olası Nedenler": "Tesisat – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0201",
+    "Arıza Açıklaması": "Enjektör Devre Arızası-Silindir = 1",
+    "Olası Nedenler": "Tesisat – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0202",
+    "Arıza Açıklaması": "Enjektör Devre Arızası-Silindir = 2",
+    "Olası Nedenler": "Tesisat – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0203",
+    "Arıza Açıklaması": "Enjektör Devre Arızası-Silindir = 3",
+    "Olası Nedenler": "Tesisat – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0204",
+    "Arıza Açıklaması": "Enjektör Devre Arızası-Silindir = 4",
+    "Olası Nedenler": "Tesisat – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0205",
+    "Arıza Açıklaması": "Enjektör Devre Arızası-Silindir = 5",
+    "Olası Nedenler": "Tesisat – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0206",
+    "Arıza Açıklaması": "Enjektör Devre Arızası-Silindir = 6",
+    "Olası Nedenler": "Tesisat – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0207",
+    "Arıza Açıklaması": "Enjektör Devre Arızası-Silindir = 7",
+    "Olası Nedenler": "Tesisat – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0208",
+    "Arıza Açıklaması": "Enjektör Devre Arızası-Silindir = 8",
+    "Olası Nedenler": "Tesisat – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0209",
+    "Arıza Açıklaması": "Enjektör Devre Arızası-Silindir = 9",
+    "Olası Nedenler": "Tesisat – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0210",
+    "Arıza Açıklaması": "Enjektör Devre Arızası-Silindir = 10",
+    "Olası Nedenler": "Tesisat – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0211",
+    "Arıza Açıklaması": "Enjektör Devre Arızası-Silindir = 11",
+    "Olası Nedenler": "Tesisat – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0212",
+    "Arıza Açıklaması": "Enjektör Devre Arızası-Silindir = 12",
+    "Olası Nedenler": "Tesisat – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0213",
+    "Arıza Açıklaması": "Soğuk Çalıştırma Enjektör = 1 Devresinde Arıza",
+    "Olası Nedenler": "Tesisat – Soguk Çalıştırma Enjektörü – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0214",
+    "Arıza Açıklaması": "Soğuk Çalıştırma Enjektör = 2 Devresinde Arıza",
+    "Olası Nedenler": "Tesisat – Soguk Çalıştırma Enjektörü – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0215",
+    "Arıza Açıklaması": "Motor Kapatma Selonoid Devresinde ( Motor Durdurma) Arızası",
+    "Olası Nedenler": "Tesisat – Yakıt Kapatma Selonoit Valfi – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0216",
+    "Arıza Açıklaması": "Enjeksiyon Zamanlama Kontrol Devresi Arızası",
+    "Olası Nedenler": "Tesisat- Enjeksiyon Zamanlama Kontrol Selonoiti – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0217",
+    "Arıza Açıklaması": "Motor Aşırı Hararet Durumu",
+    "Olası Nedenler": "Tesisat – Soğutma Sistemi – Termostat – Motor Sıcaklık Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0218",
+    "Arıza Açıklaması": "Şanzıman Aşırı Hararet durumu",
+    "Olası Nedenler": "Tesisat – Şanzıman Sıcaklık Sezicisi – Şanzıman Kontrol Modülü"
+  },
+  {
+    "Arıza Kodu": "P0219",
+    "Arıza Açıklaması": "Motor Aşırı Devir Durumu",
+    "Olası Nedenler": "Yanlış Geri Değiştirme Devri"
+  },
+  {
+    "Arıza Kodu": "P0220",
+    "Arıza Açıklaması": "Gaz / Pedal Yeri Sensör / Bogaz Kelebeği Pozizyon Sensörü 2 Devresi Arızası",
+    "Olası Nedenler": "Proğram – Boğaz Kelebeği Pozizyon Sensörü – Gaz Kelebeği Pozizyon Sensörü (Swiç) – Motor Elektronoği"
+  },
+  {
+    "Arıza Kodu": "P0221",
+    "Arıza Açıklaması": "Gaz / Pedal Yeri Sensör / Bogaz Kelebeği Pozizyon Sensörü 2 Performans Sorunu",
+    "Olası Nedenler": "Bogaz Kelebeği ile Gaz Pedalı Pozizyon Sensörü Kablo Kontrolü"
+  },
+  {
+    "Arıza Kodu": "P0222",
+    "Arıza Açıklaması": "Gaz / Pedal Yeri Sensör / Bogaz Kelebeği Pozizyon Sensörü 2 Devresi Düşük Girişi",
+    "Olası Nedenler": "Boğaz Kelebeği Pozizyon Sensörü – Gaz Kelebeği Pozizyon Sensörü Eksiye Kısa Devre – Motor Elektronoği"
+  },
+  {
+    "Arıza Kodu": "P0223",
+    "Arıza Açıklaması": "Gaz / Pedal Yeri Sensör / Bogaz Kelebeği Pozizyon Sensörü 2 Devresi Yüksek Girişi",
+    "Olası Nedenler": "Boğaz Kelebeği Pozizyon Sensörü – Gaz Kelebeği Pozizyon Sensörü Artıya Kısa Devre – Motor Elektronoği"
+  },
+  {
+    "Arıza Kodu": "P0224",
+    "Arıza Açıklaması": "Gaz / Pedal Yeri Sensör / Bogaz Kelebeği Pozizyon Sensörü 2 Devresi Aralıkları",
+    "Olası Nedenler": "Gevşek kablo veya pin baglantıları – Program – Sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0225",
+    "Arıza Açıklaması": "Gaz / Pedal Yeri Sensör / Bogaz Kelebeği Pozizyon Sensörü 3 Devresi Arızası",
+    "Olası Nedenler": "Proğram – Boğaz Kelebeği Pozizyon Sensörü – Gaz Kelebeği Pozizyon Sensörü (Swiç) – Motor Elektronoği"
+  },
+  {
+    "Arıza Kodu": "P0226",
+    "Arıza Açıklaması": "Gaz / Pedal Yeri Sensör / Bogaz Kelebeği Pozizyon Sensörü 3 Performans Sorunu",
+    "Olası Nedenler": "Bogaz Kelebeği ile Gaz Pedalı Pozizyon Sensörü Kablo Kontrolü"
+  },
+  {
+    "Arıza Kodu": "P0227",
+    "Arıza Açıklaması": "Gaz / Pedal Yeri Sensör / Bogaz Kelebeği Pozizyon Sensörü 3 Devresi Düşük Girişi",
+    "Olası Nedenler": "Boğaz Kelebeği Pozizyon Sensörü – Gaz Kelebeği Pozizyon Sensörü Eksiye Kısa Devre – Motor Elektronoği"
+  },
+  {
+    "Arıza Kodu": "P0228",
+    "Arıza Açıklaması": "Gaz / Pedal Yeri Sensör / Bogaz Kelebeği Pozizyon Sensörü 3 Devresi Yüksek Girişi",
+    "Olası Nedenler": "Boğaz Kelebeği Pozizyon Sensörü – Gaz Kelebeği Pozizyon Sensörü Artıya Kısa Devre – Motor Elektronoği"
+  },
+  {
+    "Arıza Kodu": "P0229",
+    "Arıza Açıklaması": "Gaz / Pedal Yeri Sensör / Bogaz Kelebeği Pozizyon Sensörü 3 Devresi Aralıkları",
+    "Olası Nedenler": "Gevşek kablo veya pin baglantıları – Program – Sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0230",
+    "Arıza Açıklaması": "Yakıt Pompası Birinci Devre Arızası",
+    "Olası Nedenler": "Program -Yakıt pompa Rölesi – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0231",
+    "Arıza Açıklaması": "Yakıt Pompası İkinci Devresi Düşük",
+    "Olası Nedenler": "Şaseye Kısa Devre -Yakıt pompa Rölesi – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0232",
+    "Arıza Açıklaması": "Yakıt Pompası İkinci Devresi Yüksek",
+    "Olası Nedenler": "Artıya Kısa Devre -Yakıt pompa Rölesi – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0233",
+    "Arıza Açıklaması": "Yakıt Pompası İkinci Devresi Aralıkları",
+    "Olası Nedenler": "Gevşek kablo veya pin baglantıları – Program – Sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0234",
+    "Arıza Açıklaması": "Turbo Basıncı Limit Degerin Üzerinde",
+    "Olası Nedenler": "Turbo Borularını Temizleyin – Turbo Modülatörü Valf Arızası – Turbo wastegate kontrolu"
+  },
+  {
+    "Arıza Kodu": "P0235",
+    "Arıza Açıklaması": "Turbo Şarj Destek Sensörü A Devre Arızası",
+    "Olası Nedenler": "Turbo Borularını Temizleyin – Turbo Modülatörü Valf Arızası – Turbo wastegate kontrolu"
+  },
+  {
+    "Arıza Kodu": "P0236",
+    "Arıza Açıklaması": "Turbo Şarj Basınç Sensörü A Performansı",
+    "Olası Nedenler": "Turbo Hortum Baglantılarını Kontrol Edin – Turbo Basınç Sezicisini Kontrol edin"
+  },
+  {
+    "Arıza Kodu": "P0237",
+    "Arıza Açıklaması": "Turbo Şarj Destek Sensörü A Giriş Sinyali Düşük",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre – Basınç Sezicisi Hatası – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0238",
+    "Arıza Açıklaması": "Turbo Şarj Destek Sensörü A Giriş Sinyali Yüksek",
+    "Olası Nedenler": "Sinyal : Artıya Hat Kesintisi ya da kısa devre – Basınç Sezicisi Hatası – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0239",
+    "Arıza Açıklaması": "Turbo Şarj Destek Sensörü B Devre Arızası",
+    "Olası Nedenler": "Turbo Borularını Temizleyin – Turbo Modülatörü Valf Arızası – Turbo wastegate kontrolu"
+  },
+  {
+    "Arıza Kodu": "P0240",
+    "Arıza Açıklaması": "Turbo Şarj Destek Sensörü B Performansı",
+    "Olası Nedenler": "Turbo Hortum Baglantılarını Kontrol Edin – Turbo Basınç Sezicisini Kontrol edin"
+  },
+  {
+    "Arıza Kodu": "P0241",
+    "Arıza Açıklaması": "Turbo Şarj Destek Sensörü B Giriş Sinyali Düşük",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre – Basınç Sezicisi Hatası – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0242",
+    "Arıza Açıklaması": "Turbo Şarj Destek Sensörü B Giriş Sinyali Yüksek",
+    "Olası Nedenler": "Sinyal : Artıya Hat Kesintisi ya da kısa devre – Basınç Sezicisi Hatası – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0243",
+    "Arıza Açıklaması": "Turbo çancer Wastegate Valfi A Devre Hatası",
+    "Olası Nedenler": "Turbo çancer Wastegate Valfini Değiştir – Motor Elektroniği Kontrolü – Program"
+  },
+  {
+    "Arıza Kodu": "P0244",
+    "Arıza Açıklaması": "Turbo çancer Wastegate Valfi A Performans Hatası",
+    "Olası Nedenler": "Turbo çancer Wastegate Modülünü Değiştir"
+  },
+  {
+    "Arıza Kodu": "P0245",
+    "Arıza Açıklaması": "Turbo çancer Wastegate Valfi A Devre Sinyali Düşük",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0246",
+    "Arıza Açıklaması": "Turbo çancer Wastegate Valfi A Devre Sinyali Yüksek",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0247",
+    "Arıza Açıklaması": "Turbo çancer Wastegate Valfi B Devre Hatası",
+    "Olası Nedenler": "Turbo çancer Wastegate Valfini Değiştir – Motor Elektroniği Kontrolü – Program"
+  },
+  {
+    "Arıza Kodu": "P0248",
+    "Arıza Açıklaması": "Turbo çancer Wastegate Valfi B Performans Hatası",
+    "Olası Nedenler": "Turbo çancer Wastegate Modülünü Değiştir"
+  },
+  {
+    "Arıza Kodu": "P0249",
+    "Arıza Açıklaması": "Turbo çancer Wastegate Valfi B Devre Sinyali Düşük",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0250",
+    "Arıza Açıklaması": "Turbo çancer Wastegate Valfi B Devre Sinyali Yüksek",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0251",
+    "Arıza Açıklaması": "Enjeksiyon Pompası Yakıt Ölçüm Kontrol A Arızası",
+    "Olası Nedenler": "Enjeksiyon Pompası – Motor Elektroniği -Tesisat"
+  },
+  {
+    "Arıza Kodu": "P0252",
+    "Arıza Açıklaması": "Enjeksiyon Pompası Yakıt Ölçüm Kontrol A Sınırı / Performans",
+    "Olası Nedenler": "Enjeksiyon Pompası"
+  },
+  {
+    "Arıza Kodu": "P0253",
+    "Arıza Açıklaması": "Enjeksiyon Pompası Yakıt Ölçüm Kontrol A Düşük",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0254",
+    "Arıza Açıklaması": "Enjeksiyon Pompası Yakıt Ölçüm Kontrol A Yüksek",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0255",
+    "Arıza Açıklaması": "Enjeksiyon Pompası Yakıt Ölçüm Kontrol A Aralıkları",
+    "Olası Nedenler": "Tesisat – Kablo bağlantılarını Kontrol ediniz – Enjeksiyon Pompası – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0256",
+    "Arıza Açıklaması": "Enjeksiyon Pompası Yakıt Ölçüm Kontrol B Arızası",
+    "Olası Nedenler": "Enjeksiyon Pompası – Motor Elektroniği – Tesisat"
+  },
+  {
+    "Arıza Kodu": "P0257",
+    "Arıza Açıklaması": "Enjeksiyon Pompası Yakıt Ölçüm Kontrol B Sınırı / Performans",
+    "Olası Nedenler": "Enjeksiyon Pompası"
+  },
+  {
+    "Arıza Kodu": "P0258",
+    "Arıza Açıklaması": "Enjeksiyon Pompası Yakıt Ölçüm Kontrol B Düşük",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0259",
+    "Arıza Açıklaması": "Enjeksiyon Pompası Yakıt Ölçüm Kontrol B Yüksek",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0260",
+    "Arıza Açıklaması": "Enjeksiyon Pompası Yakıt Ölçüm Kontrol B Aralıkları",
+    "Olası Nedenler": "Tesisat – Kablo bağlantılarını Kontrol ediniz – Enjeksiyon Pompası – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0261",
+    "Arıza Açıklaması": "Enjektör Devresi Düşük – Sindir = 1",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0262",
+    "Arıza Açıklaması": "Enjektör Devresi Yüksek – Silindir = 1",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0263",
+    "Arıza Açıklaması": "Silindir = 1 Balans Hatası",
+    "Olası Nedenler": "Tesisat – Yakıt sistem kontrolü – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0264",
+    "Arıza Açıklaması": "Enjektör Devresi Düşük – Sindir = 2",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0265",
+    "Arıza Açıklaması": "Enjektör Devresi Yüksek – Silindir = 2",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0266",
+    "Arıza Açıklaması": "Silindir = 2 Balans Hatası",
+    "Olası Nedenler": "Tesisat – Yakıt sistem kontrolü – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0267",
+    "Arıza Açıklaması": "Enjektör Devresi Düşük – Sindir = 3",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0268",
+    "Arıza Açıklaması": "Enjektör Devresi Yüksek – Silindir = 3",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0269",
+    "Arıza Açıklaması": "Silindir = 3 Balans Hatası",
+    "Olası Nedenler": "Tesisat – Yakıt sistem kontrolü – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0270",
+    "Arıza Açıklaması": "Enjektör Devresi Düşük – Sindir = 4",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0271",
+    "Arıza Açıklaması": "Enjektör Devresi Yüksek – Silindir = 4",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0272",
+    "Arıza Açıklaması": "Silindir = 4 Balans Hatası",
+    "Olası Nedenler": "Tesisat – Yakıt sistem kontrolü – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0273",
+    "Arıza Açıklaması": "Enjektör Devresi Düşük – Sindir = 5",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0274",
+    "Arıza Açıklaması": "Enjektör Devresi Yüksek – Silindir = 5",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0275",
+    "Arıza Açıklaması": "Silindir = 5 Balans Hatası",
+    "Olası Nedenler": "Tesisat – Yakıt sistem kontrolü – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0276",
+    "Arıza Açıklaması": "Enjektör Devresi Düşük – Sindir = 6",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0277",
+    "Arıza Açıklaması": "Enjektör Devresi Yüksek – Silindir = 6",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0278",
+    "Arıza Açıklaması": "Silindir = 6 Balans Hatası",
+    "Olası Nedenler": "Tesisat – Yakıt sistem kontrolü – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0279",
+    "Arıza Açıklaması": "Enjektör Devresi Düşük – Sindir = 7",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0280",
+    "Arıza Açıklaması": "Enjektör Devresi Yüksek – Silindir = 7",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0281",
+    "Arıza Açıklaması": "Silindir = 7 Balans Hatası",
+    "Olası Nedenler": "Tesisat – Yakıt sistem kontrolü – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0282",
+    "Arıza Açıklaması": "Enjektör Devresi Düşük – Sindir = 8",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0283",
+    "Arıza Açıklaması": "Enjektör Devresi Yüksek – Silindir = 8",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0284",
+    "Arıza Açıklaması": "Silindir = 8 Balans Hatası",
+    "Olası Nedenler": "Tesisat – Yakıt sistem kontrolü – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0285",
+    "Arıza Açıklaması": "Enjektör Devresi Düşük – Sindir = 9",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0286",
+    "Arıza Açıklaması": "Enjektör Devresi Yüksek – Silindir = 9",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0287",
+    "Arıza Açıklaması": "Silindir = 9 Balans Hatası",
+    "Olası Nedenler": "Tesisat – Yakıt sistem kontrolü – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0288",
+    "Arıza Açıklaması": "Enjektör Devresi Düşük – Sindir = 10",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0289",
+    "Arıza Açıklaması": "Enjektör Devresi Yüksek – Silindir = 10",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0290",
+    "Arıza Açıklaması": "Silindir = 10 Balans Hatası",
+    "Olası Nedenler": "Tesisat – Yakıt sistem kontrolü – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0291",
+    "Arıza Açıklaması": "Enjektör Devresi Düşük – Sindir = 11",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0292",
+    "Arıza Açıklaması": "Enjektör Devresi Yüksek – Silindir = 11",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0293",
+    "Arıza Açıklaması": "Silindir = 11 Balans Hatası",
+    "Olası Nedenler": "Tesisat – Yakıt sistem kontrolü – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0294",
+    "Arıza Açıklaması": "Enjektör Devresi Düşük – Sindir = 12",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0295",
+    "Arıza Açıklaması": "Enjektör Devresi Yüksek – Silindir = 12",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre – Enjektör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0296",
+    "Arıza Açıklaması": "Silindir = 12 Balans Hatası",
+    "Olası Nedenler": "Tesisat – Yakıt sistem kontrolü – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0297",
+    "Arıza Açıklaması": "Araç Hız Sinyali Anlamsız",
+    "Olası Nedenler": "Tesisat – VSS – Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0298",
+    "Arıza Açıklaması": "Motor Yağ Sıcaklığı Yüksek",
+    "Olası Nedenler": "Tesisat – Motor Yağ Sıcaklık Sezicisi – Mekanik hata"
+  },
+  {
+    "Arıza Kodu": "P0299",
+    "Arıza Açıklaması": "Turbo Super / Şarj Basıncı Düşük",
+    "Olası Nedenler": "Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0300",
+    "Arıza Açıklaması": "Silindir Karışım Arızası",
+    "Olası Nedenler": "Buji – Enjektör – Ateşleme Bobini – Düşük Komprosör – Yazılım"
+  },
+  {
+    "Arıza Kodu": "P0301",
+    "Arıza Açıklaması": "Silindir = 1 Ateşleme Hatası Tespit Edildi",
+    "Olası Nedenler": "Motorda Mekanik Hata Tesisat – Ateşleme/Yakıt Sistemi – Enjektör – Hava Kütle ölçer – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0302",
+    "Arıza Açıklaması": "Silindir = 2 Ateşleme Hatası Tespit Edildi",
+    "Olası Nedenler": "Motorda Mekanik Hata Tesisat – Ateşleme/Yakıt Sistemi – Enjektör – Hava Kütle ölçer – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0303",
+    "Arıza Açıklaması": "Silindir = 3 Ateşleme Hatası Tespit Edildi",
+    "Olası Nedenler": "Motorda Mekanik Hata Tesisat – Ateşleme/Yakıt Sistemi – Enjektör – Hava Kütle ölçer – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0304",
+    "Arıza Açıklaması": "Silindir = 4 Ateşleme Hatası Tespit Edildi",
+    "Olası Nedenler": "Motorda Mekanik Hata Tesisat – Ateşleme/Yakıt Sistemi – Enjektör – Hava Kütle ölçer – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0305",
+    "Arıza Açıklaması": "Silindir = 5 Ateşleme Hatası Tespit Edildi",
+    "Olası Nedenler": "Motorda Mekanik Hata Tesisat – Ateşleme/Yakıt Sistemi – Enjektör – Hava Kütle ölçer – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0306",
+    "Arıza Açıklaması": "Silindir = 6 Ateşleme Hatası Tespit Edildi",
+    "Olası Nedenler": "Motorda Mekanik Hata Tesisat – Ateşleme/Yakıt Sistemi – Enjektör – Hava Kütle ölçer – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0307",
+    "Arıza Açıklaması": "Silindir = 7 Ateşleme Hatası Tespit Edildi",
+    "Olası Nedenler": "Motorda Mekanik Hata Tesisat – Ateşleme/Yakıt Sistemi – Enjektör – Hava Kütle ölçer – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0308",
+    "Arıza Açıklaması": "Silindir = 8 Ateşleme Hatası Tespit Edildi",
+    "Olası Nedenler": "Motorda Mekanik Hata Tesisat – Ateşleme/Yakıt Sistemi – Enjektör – Hava Kütle ölçer – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0309",
+    "Arıza Açıklaması": "Silindir = 9 Ateşleme Hatası Tespit Edildi",
+    "Olası Nedenler": "Motorda Mekanik Hata Tesisat – Ateşleme/Yakıt Sistemi – Enjektör – Hava Kütle ölçer – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0310",
+    "Arıza Açıklaması": "Silindir = 10 Ateşleme Hatası Tespit Edildi",
+    "Olası Nedenler": "Motorda Mekanik Hata Tesisat – Ateşleme/Yakıt Sistemi – Enjektör – Hava Kütle ölçer – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0311",
+    "Arıza Açıklaması": "Silindir = 11 Ateşleme Hatası Tespit Edildi",
+    "Olası Nedenler": "Motorda Mekanik Hata Tesisat – Ateşleme/Yakıt Sistemi – Enjektör – Hava Kütle ölçer – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0312",
+    "Arıza Açıklaması": "Silindir = 12 Ateşleme Hatası Tespit Edildi",
+    "Olası Nedenler": "Motorda Mekanik Hata Tesisat – Ateşleme/Yakıt Sistemi – Enjektör – Hava Kütle ölçer – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0313",
+    "Arıza Açıklaması": "Yakıt Karışımı Düşük",
+    "Olası Nedenler": "Yakıt Sistemi Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0314",
+    "Arıza Açıklaması": "Silindir Sinyali Düşük",
+    "Olası Nedenler": "Motor Mekanik Hatası -Tesisat – Ateşleme – Yakıt Sistemi – Enjektör"
+  },
+  {
+    "Arıza Kodu": "P0315",
+    "Arıza Açıklaması": "Krank Devir Sinyali Anlansız",
+    "Olası Nedenler": "Motor Mekanik Hatası -Tesisat"
+  },
+  {
+    "Arıza Kodu": "P0316",
+    "Arıza Açıklaması": "Yüksek Devirde Karışım Hatası",
+    "Olası Nedenler": "Motor Mekanik Hatası – Tesisat – Ateşleme – Yakıt Sistemi – Enjektör"
+  },
+  {
+    "Arıza Kodu": "P0317",
+    "Arıza Açıklaması": "Yükleme Versiyonunda Hata",
+    "Olası Nedenler": "Tesisat – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0318",
+    "Arıza Açıklaması": "Motor Yük Sinyali Sensörü A Devresinde Hata",
+    "Olası Nedenler": "Tesisat- Yük Sinyali Sensörü A – Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0319",
+    "Arıza Açıklaması": "Motor Yük Sinyali Sensörü B Devresinde Hata",
+    "Olası Nedenler": "Tesisat – Yük Sinyali Sensörü B – Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0320",
+    "Arıza Açıklaması": "Krank Devir Sinyali Anlansız",
+    "Olası Nedenler": "Tesisat – Motor Elektroniği – Krank Devir Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0321",
+    "Arıza Açıklaması": "Krank Devir Sinyali Sensörü Performansı Kötü",
+    "Olası Nedenler": "Hava Girdap Aralığı Fazla – Metal Protoküller İletişimine Engel oluyor – Sensör Kendisi Hatalı – Tesisat"
+  },
+  {
+    "Arıza Kodu": "P0322",
+    "Arıza Açıklaması": "Krank Devir Sinyali Yok",
+    "Olası Nedenler": "Tesisat- Sensör – Motor Elektroniği – Kablo Devamlılığı"
+  },
+  {
+    "Arıza Kodu": "P0323",
+    "Arıza Açıklaması": "Krank Devir Sinyali Aralıklarla",
+    "Olası Nedenler": "Tesisat – Sensör – Motor Elektroniği – Kablo Devamlılığı"
+  },
+  {
+    "Arıza Kodu": "P0324",
+    "Arıza Açıklaması": "Vuruntu Sensörlerinde Hata",
+    "Olası Nedenler": "Tesisat – Sensör – Motor Elektroniği – Kablo Devamlılığı"
+  },
+  {
+    "Arıza Kodu": "P0325",
+    "Arıza Açıklaması": "Vuruntu Sensörü (Bank1 Devre1) Arızası",
+    "Olası Nedenler": "Tesisat- Sensör – Kablo Devamlılığı"
+  },
+  {
+    "Arıza Kodu": "P0326",
+    "Arıza Açıklaması": "Vuruntu Sensörü (Bank1 Devre1) Sınırı / Performansı",
+    "Olası Nedenler": "Tesisat – Sensör – Kablo Devamlılığı"
+  },
+  {
+    "Arıza Kodu": "P0327",
+    "Arıza Açıklaması": "Vuruntu Sensörü (Bank1 Devre1) Düşük Girişi",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0328",
+    "Arıza Açıklaması": "Vuruntu Sensörü (Bank1 Devre1) Yüksek Girişi",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0329",
+    "Arıza Açıklaması": "Vuruntu Sensörü (Bank1 Devre1) Aralıkları",
+    "Olası Nedenler": "Tesisat – Sensör – Motor Elektroniği – Kablo Devamlılığı"
+  },
+  {
+    "Arıza Kodu": "P0330",
+    "Arıza Açıklaması": "Vuruntu Sensörü (Bank2 Devre2) Arızası",
+    "Olası Nedenler": "Tesisat – Sensör – Kablo Devamlılığı"
+  },
+  {
+    "Arıza Kodu": "P0331",
+    "Arıza Açıklaması": "Vuruntu Sensörü (Bank2 Devre2) Sınırı / Performansı",
+    "Olası Nedenler": "Tesisat – Sensör – Kablo Devamlılığı"
+  },
+  {
+    "Arıza Kodu": "P0332",
+    "Arıza Açıklaması": "Vuruntu Sensörü (Bank2 Devre2) Düşük Girişi",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0333",
+    "Arıza Açıklaması": "Vuruntu Sensörü (Bank2 Devre2) Yüksek Girişi",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0334",
+    "Arıza Açıklaması": "Vuruntu Sensörü (Bank2 Devre2) Aralıkları",
+    "Olası Nedenler": "Tesisat – Sensör – Motor Elektroniği – Kablo Devamlılığı"
+  },
+  {
+    "Arıza Kodu": "P0335",
+    "Arıza Açıklaması": "Krank Mili Sensör Devresi Arızası",
+    "Olası Nedenler": "Tesisat – Sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0336",
+    "Arıza Açıklaması": "Krank Mili Sensör Devresi Sınırı / Performansı",
+    "Olası Nedenler": "Hava Girdap Aralığı Fazla – Sensör Kendisi Hatalı -Tesisat"
+  },
+  {
+    "Arıza Kodu": "P0337",
+    "Arıza Açıklaması": "Krank Mili Sensör Devresi Düşük Girişi",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0338",
+    "Arıza Açıklaması": "Krank Mili Sensör Devresi Yüksek Girişi",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0339",
+    "Arıza Açıklaması": "Krank Mili Sensör Devresi Aralıkları",
+    "Olası Nedenler": "Tesisat – Gevşek Pin Baglantılatı – Sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0340",
+    "Arıza Açıklaması": "Kam Mili Yer Sensör Devre Arızası (SensörA Devre1)",
+    "Olası Nedenler": "Tesisat – Sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0341",
+    "Arıza Açıklaması": "Kam Mili Yer Sensör Devre Sınırı / Performansı(SensörA Devre1)",
+    "Olası Nedenler": "Hava Girdap Aralığı Fazla – Sensör Kendisi Hatalı – Proğram"
+  },
+  {
+    "Arıza Kodu": "P0342",
+    "Arıza Açıklaması": "Kam Mili Yer Sensör Devre Düşük Girişi (SensörA Devre1)",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0343",
+    "Arıza Açıklaması": "Kam Mili Yer Sensör Devre Yüksek Girişi(SensörA Devre1)",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0344",
+    "Arıza Açıklaması": "Kam Mili Yer Sensör Devre Aralıkları(SensörA Devre1)",
+    "Olası Nedenler": "Tesisat – Gevşek Pin Baglantılatı – Sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0345",
+    "Arıza Açıklaması": "Kam Mili Yer Sensör Devre Arızası (SensörA Devre2)",
+    "Olası Nedenler": "Tesisat – Sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0346",
+    "Arıza Açıklaması": "Kam Mili Yer Sensör Devre Sınırı / Performansı(SensörA Devre2)",
+    "Olası Nedenler": "Hava Girdap Aralığı Fazla – Sensör Kendisi Hatalı – Proğram"
+  },
+  {
+    "Arıza Kodu": "P0347",
+    "Arıza Açıklaması": "Kam Mili Yer Sensör Devre Düşük Girişi (SensörA Devre2)",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0348",
+    "Arıza Açıklaması": "Kam Mili Yer Sensör Devre Yüksek Girişi(SensörA Devre2)",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0349",
+    "Arıza Açıklaması": "Kam Mili Yer Sensör Devre Aralıkları(SensörA Devre2)",
+    "Olası Nedenler": "Tesisat – Gevşek Pin Baglantılatı – Sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0350",
+    "Arıza Açıklaması": "Ateşleme Bobini Birincil / İkincil Devre Arızası",
+    "Olası Nedenler": "Tesisat – Ateşleme Bobini – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0351",
+    "Arıza Açıklaması": "Ateşleme Bobini Birincil A / İkincil Devre Arızası",
+    "Olası Nedenler": "Tesisat – Ateşleme Bobini – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0352",
+    "Arıza Açıklaması": "Ateşleme Bobini Birincil B / İkincil Devre Arızası",
+    "Olası Nedenler": "Tesisat – Ateşleme Bobini – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0353",
+    "Arıza Açıklaması": "Ateşleme Bobini Birincil C / İkincil Devre Arızası",
+    "Olası Nedenler": "Tesisat – Ateşleme Bobini – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0354",
+    "Arıza Açıklaması": "Ateşleme Bobini Birincil D / İkincil Devre Arızası",
+    "Olası Nedenler": "Tesisat – Ateşleme Bobini – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0355",
+    "Arıza Açıklaması": "Ateşleme Bobini Birincil E / İkincil Devre Arızası",
+    "Olası Nedenler": "Tesisat – Ateşleme Bobini – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0356",
+    "Arıza Açıklaması": "Ateşleme Bobini Birincil F / İkincil Devre Arızası",
+    "Olası Nedenler": "Tesisat – Ateşleme Bobini – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0357",
+    "Arıza Açıklaması": "Ateşleme Bobini Birincil G / İkincil Devre Arızası",
+    "Olası Nedenler": "Tesisat – Ateşleme Bobini – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0358",
+    "Arıza Açıklaması": "Ateşleme Bobini Birincil H / İkincil Devre Arızası",
+    "Olası Nedenler": "Tesisat – Ateşleme Bobini – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0359",
+    "Arıza Açıklaması": "Ateşleme Bobini Birincil I / İkincil Devre Arızası",
+    "Olası Nedenler": "Tesisat – Ateşleme Bobini – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0360",
+    "Arıza Açıklaması": "Ateşleme Bobini Birincil J / İkincil Devre Arızası",
+    "Olası Nedenler": "Tesisat – Ateşleme Bobini – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0361",
+    "Arıza Açıklaması": "Ateşleme Bobini Birincil K / İkincil Devre Arızası",
+    "Olası Nedenler": "Tesisat – Ateşleme Bobini – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0362",
+    "Arıza Açıklaması": "Ateşleme Bobini Birincil L / İkincil Devre Arızası",
+    "Olası Nedenler": "Tesisat – Ateşleme Bobini – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0363",
+    "Arıza Açıklaması": "Karışım – Yakıt Hattı Kapalı",
+    "Olası Nedenler": "Yakıt Sistemi Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0365",
+    "Arıza Açıklaması": "Kam Mili Yer Sensör Devre Arızası (SensörB Devre1)",
+    "Olası Nedenler": "Tesisat – Sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0366",
+    "Arıza Açıklaması": "Kam Mili Yer Sensör Devre Sınırı / Performansı(SensörB Devre1)",
+    "Olası Nedenler": "Hava Girdap Aralığı Fazla – Sensör Kendisi Hatalı – Proğram"
+  },
+  {
+    "Arıza Kodu": "P0367",
+    "Arıza Açıklaması": "Kam Mili Yer Sensör Devre Düşük Girişi (SensörB Devre1)",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0368",
+    "Arıza Açıklaması": "Kam Mili Yer Sensör Devre Yüksek Girişi(SensörB Devre1)",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0369",
+    "Arıza Açıklaması": "Kam Mili Yer Sensör Devre Aralıkları(SensörB Devre1)",
+    "Olası Nedenler": "Tesisat – Gevşek Pin Baglantılatı – Sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0370",
+    "Arıza Açıklaması": "Zamanlama Referansı Yüksek Dağılma Sinyali A Arızası",
+    "Olası Nedenler": "Tesisat – Krank devir sensörü / Kam mili sensörü Arızası – Motor Elektronoği"
+  },
+  {
+    "Arıza Kodu": "P0371",
+    "Arıza Açıklaması": "Zamanlama Referansı Yüksek Dağılma Sinyali A Çok Fazla Vuruntu",
+    "Olası Nedenler": "Tesisat – Krank devir sensörü / Kam mili sensörü Arızası – Motor Elektronoği"
+  },
+  {
+    "Arıza Kodu": "P0372",
+    "Arıza Açıklaması": "Zamanlama Referansı Yüksek Dağılma Sinyali A Çok Az Vuruntu",
+    "Olası Nedenler": "Tesisat – Krank devir sensörü / Kam mili sensörü Arızası – Motor Elektronoği"
+  },
+  {
+    "Arıza Kodu": "P0373",
+    "Arıza Açıklaması": "Zamanlama Referansı Yüksek Dağılma Sinyali A Aralıkları",
+    "Olası Nedenler": "Tesisat – Pin Bağlantı Kontrolleri – Krank devir sensörü / Kam mili sensörü Arızası – Motor Elektronoği"
+  },
+  {
+    "Arıza Kodu": "P0374",
+    "Arıza Açıklaması": "Zamanlama Referansı Yüksek Dağılma Sinyali A Vuruntu Yok",
+    "Olası Nedenler": "Tesisat – Krank devir sensörü / Kam mili sensörü Arızası – Motor Elektronoği"
+  },
+  {
+    "Arıza Kodu": "P0375",
+    "Arıza Açıklaması": "Zamanlama Referansı Yüksek Dağılma Sinyali B Arızası",
+    "Olası Nedenler": "Tesisat – Krank devir sensörü / Kam mili sensörü Arızası – Motor Elektronoği"
+  },
+  {
+    "Arıza Kodu": "P0376",
+    "Arıza Açıklaması": "Zamanlama Referansı Yüksek Dağılma Sinyali B Çok Fazla Vuruntu",
+    "Olası Nedenler": "Tesisat – Krank devir sensörü / Kam mili sensörü Arızası – Motor Elektronoği"
+  },
+  {
+    "Arıza Kodu": "P0377",
+    "Arıza Açıklaması": "Zamanlama Referansı Yüksek Dağılma Sinyali B Çok Az Vuruntu",
+    "Olası Nedenler": "Tesisat – Krank devir sensörü / Kam mili sensörü Arızası – Motor Elektronoği"
+  },
+  {
+    "Arıza Kodu": "P0378",
+    "Arıza Açıklaması": "Zamanlama Referansı Yüksek Dağılma Sinyali B Aralıkları",
+    "Olası Nedenler": "Tesisat – Pin Bağlantı Kontrolleri – Krank devir sensörü / Kam mili sensörü Arızası – Motor Elektronoği"
+  },
+  {
+    "Arıza Kodu": "P0379",
+    "Arıza Açıklaması": "Zamanlama Referansı Yüksek Dağılma Sinyali B Vuruntu Yok",
+    "Olası Nedenler": "Tesisat- Krank devir sensörü / Kam mili sensörü Arızası – Motor Elektronoği"
+  },
+  {
+    "Arıza Kodu": "P0380",
+    "Arıza Açıklaması": "Isıtma Büji Devresi A Arızası",
+    "Olası Nedenler": "Tesisat – Isıtma Bujisi röle -siğorta – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0381",
+    "Arıza Açıklaması": "Isıtma Büji Gösterge Devre Arızası",
+    "Olası Nedenler": "Tesisat- Gösterge Lmaba Arızası – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0382",
+    "Arıza Açıklaması": "Isıtma Buji Devresi B Arızası",
+    "Olası Nedenler": "Tesisat – Isıtma Bujisi röle -siğorta – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0383",
+    "Arıza Açıklaması": "Isıtma Bujisi Kontrol Ünitesi Sinyali Düşük",
+    "Olası Nedenler": "Tesisat – Isıtma Bujisi Kontrol Ünitesi – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0384",
+    "Arıza Açıklaması": "Isıtma Bujisi Kontrol Ünitesi Sinyali Yüksek",
+    "Olası Nedenler": "Tesisat – Isıtma Bujisi Kontrol Ünitesi- Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0385",
+    "Arıza Açıklaması": "Krank Mili Yer Sensör B Devresi Arızası",
+    "Olası Nedenler": "Tesisat – Sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0386",
+    "Arıza Açıklaması": "Krank Mili Yer Sensör B Devresi Sınırı / Performansı",
+    "Olası Nedenler": "Hava Girdap Aralığı Fazla – Sensör Kendisi Hatalı – Proğram"
+  },
+  {
+    "Arıza Kodu": "P0387",
+    "Arıza Açıklaması": "Krank Mili Yer Sensör B Devresi Düşük Girişi",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0388",
+    "Arıza Açıklaması": "Krank Mili Yer Sensör B Devresi Yüksek Girişi",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0389",
+    "Arıza Açıklaması": "Krank Mili Yer Sensör B Devresi Aralıkları",
+    "Olası Nedenler": "Tesisat – Gevşek Pin Baglantılatı – Sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0390",
+    "Arıza Açıklaması": "Kam Mili Yer Sensör Devre Arızası (SensörB Devre2)",
+    "Olası Nedenler": "Tesisat – Sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0391",
+    "Arıza Açıklaması": "Kam Mili Yer Sensör Devre Sınırı / Performansı(SensörB Devre2)",
+    "Olası Nedenler": "Hava Girdap Aralığı Fazla – Sensör Kendisi Hatalı – Tesisat"
+  },
+  {
+    "Arıza Kodu": "P0392",
+    "Arıza Açıklaması": "Kam Mili Yer Sensör Devre Düşük Girişi (SensörB Devre2)",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0393",
+    "Arıza Açıklaması": "Kam Mili Yer Sensör Devre Yüksek Girişi(SensörB Devre2)",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0394",
+    "Arıza Açıklaması": "Kam Mili Yer Sensör Devre Aralıkları(SensörB Devre2)",
+    "Olası Nedenler": "Tesisat – Gevşek Pin Baglantılatı – Sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0400",
+    "Arıza Açıklaması": "EGR Akış Arızası",
+    "Olası Nedenler": "Boru Bağlantı Hatası – EGR Selonoit Valfi – EGR Valfi – EGR"
+  },
+  {
+    "Arıza Kodu": "P0401",
+    "Arıza Açıklaması": "EGR Akış Yetersizliği Tespit Edildi",
+    "Olası Nedenler": "Boru Bağlantı Hatası – EGR Selonoit Valfi – EGR Valfi – EGR"
+  },
+  {
+    "Arıza Kodu": "P0402",
+    "Arıza Açıklaması": "EGR Akış Fazlalığı Tespit Edildi",
+    "Olası Nedenler": "Boru Bağlantı Hatası – EGR Selonoit Valfi – EGR Valfi – EGR"
+  },
+  {
+    "Arıza Kodu": "P0403",
+    "Arıza Açıklaması": "EGR Devre Arızası",
+    "Olası Nedenler": "Tesisat – EGR Selonoid – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0404",
+    "Arıza Açıklaması": "EGR Devre Sınırı / Performansı",
+    "Olası Nedenler": "Boru Bağlantı Hatası – EGR Selonoit Valfi – EGR Valfi – EGR"
+  },
+  {
+    "Arıza Kodu": "P0405",
+    "Arıza Açıklaması": "EGR Sensör A Devresi Düşük Girişi",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0406",
+    "Arıza Açıklaması": "EGR Sensör A Devresi Yüksek Girişi",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0407",
+    "Arıza Açıklaması": "EGR Sensör B Devresi Düşük Girişi",
+    "Olası Nedenler": "Sinyal : Şaseye Hat Kesintisi ya da kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0408",
+    "Arıza Açıklaması": "EGR Sensör B Devresi Yüksek Girişi",
+    "Olası Nedenler": "Sinyal : Artıya şaseye hat kesintisi yada kısa devre"
+  },
+  {
+    "Arıza Kodu": "P0409",
+    "Arıza Açıklaması": "EGR Sensör A Devresi Arıza",
+    "Olası Nedenler": "Tesisat- Gevşek Pin Baglantılatı – EGR Valf Pontansiyel Sensör – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0410",
+    "Arıza Açıklaması": "Sekonder 2 Hava Enjeksiyon Sisteminde Hata",
+    "Olası Nedenler": "Tesisat – Hava Valfi -Hava Selonoid – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0411",
+    "Arıza Açıklaması": "Sekonder 2 Hava Enjeksiyon Sisteminde Arıza",
+    "Olası Nedenler": "Hava Pompası – Hava Valfi – Hava Hortumları"
+  },
+  {
+    "Arıza Kodu": "P0412",
+    "Arıza Açıklaması": "Sekonder 2 Hava Enjeksiyon Sisteminde Selonoid A Devresinde Hata",
+    "Olası Nedenler": "Proğram -Hava Selonoid – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0413",
+    "Arıza Açıklaması": "Sekonder 2 Hava Enjeksiyon Sisteminde Selonoid A Devresinde Açık Devre",
+    "Olası Nedenler": "Yazılımda Açık Devre – Hava Selonoid Valfi – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0414",
+    "Arıza Açıklaması": "Sekonder 2 Hava Enjeksiyon Sisteminde Selonoid A Devresinde Kısa Devre",
+    "Olası Nedenler": "Yazılımda Açık Devre – Hava Selonoid Valfi – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0415",
+    "Arıza Açıklaması": "Sekonder 2 Hava Enjeksiyon Sisteminde Selonoid B Devresinde Hata",
+    "Olası Nedenler": "Proğram -Hava Selonoid – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0416",
+    "Arıza Açıklaması": "Sekonder 2 Hava Enjeksiyon Sisteminde Selonoid B Devresinde Açık Devre",
+    "Olası Nedenler": "Yazılımda Açık Devre – Hava Selonoid Valfi – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0417",
+    "Arıza Açıklaması": "Sekonder 2 Hava Enjeksiyon Sisteminde Selonoid B Devresinde Kısa Devre",
+    "Olası Nedenler": "Yazılımda Açık Devre – Hava Selonoid Valfi – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0418",
+    "Arıza Açıklaması": "İkinci Hava Enjeksiyon Pompa Rölesi A Hata",
+    "Olası Nedenler": "Tesisat-Hava Pompası rölesi-Pompa-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0419",
+    "Arıza Açıklaması": "İkinci Hava Enjeksiyon Pompa Rölesi B Hata",
+    "Olası Nedenler": "Tesisat-Hava Pompası rölesi-Pompa-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0420",
+    "Arıza Açıklaması": "Katalatik Sistem randımanı Sınırlar altında Bank 1",
+    "Olası Nedenler": "Katalatik konvevtör-Proğram-O2 Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0421",
+    "Arıza Açıklaması": "Katalatik Isıtma Sınır Deger altında Bank 1",
+    "Olası Nedenler": "Katalatik konvevtör-Proğram-O2 Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0422",
+    "Arıza Açıklaması": "Ana Katalatik Sınır Deger Altında Bank 1",
+    "Olası Nedenler": "Katalatik konvevtör-Proğram-O2 Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0423",
+    "Arıza Açıklaması": "IsıtılMIŞ KATALATİK sınır deger altında Bank 1",
+    "Olası Nedenler": "Katalatik konvevtör-Proğram-O2 Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0424",
+    "Arıza Açıklaması": "Isıtılmış Katalatik Isısı Sınır deger altında Bank 1",
+    "Olası Nedenler": "Katalatik konvevtör-Proğram-O2 Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0425",
+    "Arıza Açıklaması": "Katalatik Konvektör Isıtma sensörü Bank 1",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Baglantıları-Katalatik konvevtör sıcaklık sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0426",
+    "Arıza Açıklaması": "Katalatik Konvektör Isıtma sensörü sınırı/Performans Bank 1",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Baglantıları-Katalatik konvevtör sıcaklık sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0427",
+    "Arıza Açıklaması": "Katalatik Konvektör Isıtma sensörü Giriş sinyali düşük Bank 1",
+    "Olası Nedenler": "siye Kısa devre-katalatik konvevtör sıcaklık sensörü-motor elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0428",
+    "Arıza Açıklaması": "Katalatik Konvektör Isıtma sensörü Giriş sinyali Yüksek Bank 1",
+    "Olası Nedenler": "Tesisat-Artıya Kısa devre-katalatik konvevtör sıcaklık sensörü-motor elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0429",
+    "Arıza Açıklaması": "Katalatik Konvektör Isıtma sisteminde hata Bank 1",
+    "Olası Nedenler": "Program-Röle-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0430",
+    "Arıza Açıklaması": "Katalatik Sistem randımanı Sınırlar altında Bank 2",
+    "Olası Nedenler": "Katalatik konvevtör-Proğram-O2 Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0431",
+    "Arıza Açıklaması": "Katalatik Isıtma Sınır Deger altında Bank 2",
+    "Olası Nedenler": "Katalatik konvevtör-Proğram-O2 Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0432",
+    "Arıza Açıklaması": "Ana Katalatik Sınır Deger Altında Bank 2",
+    "Olası Nedenler": "Katalatik konvevtör-Proğram-O2 Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0433",
+    "Arıza Açıklaması": "IsıtılMIŞ KATALATİK sınır deger altında Bank 2",
+    "Olası Nedenler": "Katalatik konvevtör-Proğram-O2 Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0434",
+    "Arıza Açıklaması": "Isıtılmış Katalatik Isısı Sınır deger altında Bank 2",
+    "Olası Nedenler": "Katalatik konvevtör-Proğram-O2 Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0435",
+    "Arıza Açıklaması": "Katalatik Konvektör Isıtma sensörü Bank 2",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Baglantıları-Katalatik konvevtör sıcaklık sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0436",
+    "Arıza Açıklaması": "Katalatik Konvektör Isıtma sensörü sınırı/Performans Bank 2",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Baglantıları-Katalatik konvevtör sıcaklık sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0437",
+    "Arıza Açıklaması": "Katalatik Konvektör Isıtma sensörü Giriş sinyali düşük Bank 2",
+    "Olası Nedenler": "siye Kısa devre-katalatik konvevtör sıcaklık sensörü-motor elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0438",
+    "Arıza Açıklaması": "Katalatik Konvektör Isıtma sensörü Giriş sinyali Yüksek Bank 2",
+    "Olası Nedenler": "Tesisat-Artıya Kısa devre-katalatik konvevtör sıcaklık sensörü-motor elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0439",
+    "Arıza Açıklaması": "Katalatik Konvektör Isıtma sisteminde hata Bank 2",
+    "Olası Nedenler": "Tesisat-Röle-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0440",
+    "Arıza Açıklaması": "Yakıt Tankı Emisyon Kontrol Sistemi Arıza",
+    "Olası Nedenler": "Hortum Baglantıları -Giriş Tankı-Depo Hava Alma Valfi"
+  },
+  {
+    "Arıza Kodu": "P0441",
+    "Arıza Açıklaması": "Yakıt Tankı Emisyon Kontrol Sistemi Yanlış Boşaltma Akışı",
+    "Olası Nedenler": "Hortum Baglantıları -Giriş Tankı-Depo Hava Alma Valfi"
+  },
+  {
+    "Arıza Kodu": "P0442",
+    "Arıza Açıklaması": "Yakıt Tankı Emisyon Kontrol Sistemi Sızıntı Tespit Edildi",
+    "Olası Nedenler": "Hortum Baglantıları -Giriş Tankı-Depo Hava Alma Valfi-Hortumlarda Sızıntı"
+  },
+  {
+    "Arıza Kodu": "P0443",
+    "Arıza Açıklaması": "Yakıt Tankı Emisyon Kontrol Sistemi Boşaltma Kontrol Devresi Arızalı",
+    "Olası Nedenler": "Tesisat-Depo Hava Alma Valfi-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0444",
+    "Arıza Açıklaması": "Yakıt Tankı Emisyon Kontrol Sistemi Boşaltma Kontrol Valf Devresi Açık",
+    "Olası Nedenler": "Motor Tesisatı Açık Devre-Depo Hava Alma Valfi-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0445",
+    "Arıza Açıklaması": "Yakıt Tankı Emisyon Kontrol Sistemi Boşaltma Kontrol Valf Devresi Kısa Devre",
+    "Olası Nedenler": "Motor Tesisatı kısa Devre -Depo Hava Alma Valfi-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0446",
+    "Arıza Açıklaması": "Yakıt Tankı Emisyon Kontrol Sistemi Havalandırma Arızası",
+    "Olası Nedenler": "Tesisat-Depo Hava Alma Valfi-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0447",
+    "Arıza Açıklaması": "Yakıt Tankı Emisyon Kontrol Sistemi Havalandırma Devresi Açık",
+    "Olası Nedenler": "Motor Tesisatı Açık Devre-Depo Hava Alma Valfi-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0448",
+    "Arıza Açıklaması": "Yakıt Tankı Emisyon Kontrol Sistemi Havalandırma Devresi Kısa Devre",
+    "Olası Nedenler": "Motor Tesisatı kısa Devre -Depo Hava Alma Valfi-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0449",
+    "Arıza Açıklaması": "Yakıt Tankı Emisyon Kontrol Sistemi Havalandırma Devresi Aralıkları",
+    "Olası Nedenler": "Motor Tesisatı Açık Devre–Depo Hava Alma Valfi-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0450",
+    "Arıza Açıklaması": "Yakıt Tankı Emisyon Kontrol Sistemi Basınç Sensör Arızası",
+    "Olası Nedenler": "Motor Tesisatı Açık Devre–Depo Hava Alma Basınç Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0451",
+    "Arıza Açıklaması": "Yakıt Tankı Emisyon Kontrol Sistemi Basınç Sensör Performansı",
+    "Olası Nedenler": "Depo Hava Alma Basınç Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0452",
+    "Arıza Açıklaması": "Yakıt Tankı Emisyon Kontrol Sistemi Basınç Sensör Düşük Girişi",
+    "Olası Nedenler": "Motor Tesisatı Şaseye kısa Devre -Depo Hava Alma Basınç Sensörü -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0453",
+    "Arıza Açıklaması": "Yakıt Tankı Emisyon Kontrol Sistemi Basınç Sensör Yüksek Girişi",
+    "Olası Nedenler": "Motor Tesisatı Artıya kısa Devre -Depo Hava Alma Basınç Sensörü -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0454",
+    "Arıza Açıklaması": "Yakıt Tankı Emisyon Kontrol Sistemi Basınç Sensör Aralıkları",
+    "Olası Nedenler": "Proğram-Gevşek Pin Baglantıları-Depo Hava Alma Basınç Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0455",
+    "Arıza Açıklaması": "Yakıt Tankı Emisyon Kontrol Sistemi Sızıntı Tespit Edildi (Toplam Sızıntı/Akış yok)",
+    "Olası Nedenler": "Yakıt Tankı Hortum Baglantılarında Problem-Hava Alma Basınç valfi-Hava Alma Basınç Sensörü hata- Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0456",
+    "Arıza Açıklaması": "Yakıt Tankı Emisyon Kontrol Sistemi Filitresi hava alıyor",
+    "Olası Nedenler": "Yakıt Tankı Hortum Baglantılarında Problem-Hava Alma Basınç valfi-Hava Alma Basınç Sensörü hata"
+  },
+  {
+    "Arıza Kodu": "P0457",
+    "Arıza Açıklaması": "Yakıt Tankı Emisyon Kontrol Sistemi Filitresi Kapalı (Tıkanmış)",
+    "Olası Nedenler": "Yakıt Tankı Hortum Baglantılarında Problem-Hava Alma Basınç valfi-Hava Alma Basınç Sensörü hata"
+  },
+  {
+    "Arıza Kodu": "P0458",
+    "Arıza Açıklaması": "Yakıt Tankı Emisyon Kontrol Sistemi Depo Hava Alma Valfi Sinyali Düşük",
+    "Olası Nedenler": "Motor Tesisatı Şaseye kısa Devre -Depo Hava Alma Basınç Valfi -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0459",
+    "Arıza Açıklaması": "Yakıt Tankı Emisyon Kontrol Sistemi Depo Hava Alma Valfi Sinyali Yüksek",
+    "Olası Nedenler": "Motor Tesisatı Artıya kısa Devre -Depo Hava Alma Basınç Valfi -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0460",
+    "Arıza Açıklaması": "Yakıt Depo Şamandırası Sensörü Devre Arızası",
+    "Olası Nedenler": "Motor Tesisatı Açık Devre–Yakıt Depo Şamandıra Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0461",
+    "Arıza Açıklaması": "Yakıt Depo Şamandırası Sensörü Devre Sınırı/Performans",
+    "Olası Nedenler": "Motor Tesisatı Açık Devre–Yakıt Depo Şamandıra Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0462",
+    "Arıza Açıklaması": "Yakıt Depo Şamandırası Sensörü Devre Düşük Girişi",
+    "Olası Nedenler": "Motor Tesisatı Şaseye Kısa Devre-Yakıt Depo Şamandıra Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0463",
+    "Arıza Açıklaması": "Yakıt Depo Şamandırası Sensörü Devre Yüksek Girişi",
+    "Olası Nedenler": "Motor Tesisatı Artıya Kısa Devre-Yakıt Depo Şamandıra Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0464",
+    "Arıza Açıklaması": "Yakıt Depo Şamandırası Sensörü Devre Aralıkları",
+    "Olası Nedenler": "Motor Tesisatı Açık Devre–Gevşek Pin ve Kablo Bağlantıları-Yakıt Depo Şamandıra Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0465",
+    "Arıza Açıklaması": "Yakıt Tankı Emisyon Kontrol Sistemi Boşaltma Akış Sensör Arızası",
+    "Olası Nedenler": "Motor Tesisatı Açık Devre–Yakıt Tankı Emisyon Kontrol Sistemi Boşaltma Akış Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0466",
+    "Arıza Açıklaması": "Yakıt Tankı Emisyon Kontrol Sistemi Boşaltma Akış Sensör Sınırı/Performansı",
+    "Olası Nedenler": "Motor Tesisatı Açık Devre–Yakıt Tankı Emisyon Kontrol Sistemi Boşaltma Akış Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0467",
+    "Arıza Açıklaması": "Yakıt Tankı Emisyon Kontrol Sistemi Boşaltma Akış Sensör Düşük Girişi",
+    "Olası Nedenler": "Motor Tesisatı Şaseye Kısa Devre-Yakıt Tankı Emisyon Kontrol Sistemi Boşaltma Akış Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0468",
+    "Arıza Açıklaması": "Yakıt Tankı Emisyon Kontrol Sistemi Boşaltma Akış Sensör Yüksek Girişi",
+    "Olası Nedenler": "Motor Tesisatı Artıya Kısa Devre-Yakıt Tankı Emisyon Kontrol Sistemi Boşaltma Akış Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0469",
+    "Arıza Açıklaması": "Yakıt Tankı Emisyon Kontrol Sistemi Boşaltma Akış Sensör Aralıkları",
+    "Olası Nedenler": "Motor Tesisatı Açık Devre–Gevşek Pin ve Kablo Bağlantıları-Yakıt Tankı Emisyon Kontrol Boşaltma Akış Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0470",
+    "Arıza Açıklaması": "Eksoz Basınç Sensör Arızası",
+    "Olası Nedenler": "Motor Tesisatı Açık Devre–Eksoz Basınç Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0471",
+    "Arıza Açıklaması": "Eksoz Basınç Sensör Sınırı/Performans",
+    "Olası Nedenler": "Eksoz Basınç Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0472",
+    "Arıza Açıklaması": "Eksoz Basınç Sensör Düşük",
+    "Olası Nedenler": "Motor Tesisatı Şaseye Kısa Devre-Eksoz Basınç Sensörü- Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0473",
+    "Arıza Açıklaması": "Eksoz Basınç Sensör Yüksek",
+    "Olası Nedenler": "Motor Tesisatı Artıya Kısa Devre-Eksoz Basınç Sensörü- Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0474",
+    "Arıza Açıklaması": "Eksoz Basınç Sensör Aralıkları",
+    "Olası Nedenler": "Motor Tesisatı Açık Devre–Gevşek Pin ve Kablo Bağlantıları-Eksoz Basınç Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0475",
+    "Arıza Açıklaması": "Eksoz Basınç Kontrol Valf Arızası",
+    "Olası Nedenler": "Motor Tesisatı Açık Devre-Eksoz Basınç Kontrol Valfi-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0476",
+    "Arıza Açıklaması": "Eksoz Basınç Kontrol Valf Sınırı/Performans",
+    "Olası Nedenler": "Eksoz Basınç Kontrol Valfi"
+  },
+  {
+    "Arıza Kodu": "P0477",
+    "Arıza Açıklaması": "Eksoz Basınç Kontrol Valf Düşük",
+    "Olası Nedenler": "Motor Tesisatı Şaseye Kısa Devre-Eksoz Basınç Kontrol Valfi – Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0478",
+    "Arıza Açıklaması": "Eksoz Basınç Kontrol Valf Yüksek",
+    "Olası Nedenler": "Motor Tesisatı Artıya Kısa Devre-Eksoz Basınç Kontrol Valfi – Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0479",
+    "Arıza Açıklaması": "Eksoz Basınç Kontrol Valf Aralıkları",
+    "Olası Nedenler": "Motor Tesisatı Açık Devre–Gevşek Pin ve Kablo Bağlantıları-Eksoz Basınç Kontrol Valfi -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0480",
+    "Arıza Açıklaması": "Motor Soğutma Fanı 1 Kontrol Devresi Arızalı",
+    "Olası Nedenler": "Motor Tesisatı Açık Devre–Motor Soğutma Fan Motoru-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0481",
+    "Arıza Açıklaması": "Motor Soğutma Fanı 2 Kontrol Devresi Arızalı",
+    "Olası Nedenler": "Motor Tesisatı Açık Devre–Motor Soğutma Fan Motoru-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0482",
+    "Arıza Açıklaması": "Motor Soğutma Fanı 3 Kontrol Devresi Arızalı",
+    "Olası Nedenler": "Motor Tesisatı Açık Devre–Motor Soğutma Fan Motoru-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0483",
+    "Arıza Açıklaması": "Motor Soğutma Fanı Oranlılık Kontrol Arızası",
+    "Olası Nedenler": "Motor Tesisatı Açık Devre–Motor Soğutma Fan Motoru-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0484",
+    "Arıza Açıklaması": "Motor Soğutma Fanı Devresinde Aşırı Akım",
+    "Olası Nedenler": "Motor Tesisatı Açık Devre–Motor Soğutma Fan Motoru-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0485",
+    "Arıza Açıklaması": "Motor Soğutma Fanı Güç/Topraklama Devre Arızası",
+    "Olası Nedenler": "Motor Tesisatı Açık Devre–Motor Soğutma Fan Motoru-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0486",
+    "Arıza Açıklaması": "Egsoz Gazı Geri Dönüş Sensör B Devresinde Hata",
+    "Olası Nedenler": "Motor Tesisatı Açık Devre–Gevşek Pin Bağlantıları-EGR Valfi Pozizyon Sensörü -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0487",
+    "Arıza Açıklaması": "Egsoz Gazı Geri Dönüş Sistemi. Gaz Pedalı Potansiyel Metresi Kontrol Sisteminde Hata",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0488",
+    "Arıza Açıklaması": "Egsoz Gazı Geri Dönüş Sistemi. Gaz Pedalı Potansiyel Metresi Kontrol Sisteminde Sinyal Performans",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0489",
+    "Arıza Açıklaması": "Egsoz Gazı Geri Dönüş Sistemi. Gaz Pedalı Potansiyel Metresi Kontrol Sisteminde Sinyal Düşük",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Hat Kopuk veya Şaseye Kısa Devre -EGR Valfi Pozizyon Sensörü -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0490",
+    "Arıza Açıklaması": "Egsoz Gazı Geri Dönüş Sistemi. Gaz Pedalı Potansiyel Metresi Kontrol Sisteminde Sinyal Yüksek",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Hat Kopuk veya Artıya Kısa Devre -EGR Valfi Pozizyon Sensörü -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0491",
+    "Arıza Açıklaması": "İkincil Hava Enjeksiyon Sisteminde Bank 1 Hata",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Hortum Baglantıları-Hava Selonoid -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0492",
+    "Arıza Açıklaması": "İkincil Hava Enjeksiyon Sisteminde Bank 2 Hata",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Hortum Baglantıları-Hava Selonoid -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0493",
+    "Arıza Açıklaması": "Motor Suyu Sogutma Fan Motor Devri (Debriyaj Sıkışmış)",
+    "Olası Nedenler": "Motor Suyu Sogutma Fan Motor Devri – Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0494",
+    "Arıza Açıklaması": "Motor Suyu Sogutma Fan Motor Devri Düşük",
+    "Olası Nedenler": "Tesisat-Motor Suyu Sogutma Fan Motoru- Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0495",
+    "Arıza Açıklaması": "Motor Suyu Sogutma Fan Motor Devri Yüksek",
+    "Olası Nedenler": "Tesisat-Motor Suyu Sogutma Fan Motoru- Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0496",
+    "Arıza Açıklaması": "Buharlaştırcı Emisyon Sistemi (EVAP) Basıncı Yüksek",
+    "Olası Nedenler": "Tesisat-Buharlaştırcı Emisyon Valfi ( EVAP) – Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0497",
+    "Arıza Açıklaması": "Buharlaştırcı Emisyon Sistemi (EVAP) Basıncı Düşük",
+    "Olası Nedenler": "Tesisat-Buharlaştırcı Emisyon Valfi ( EVAP) -Borularda Tıkanıklık Tespit edildi- Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0498",
+    "Arıza Açıklaması": "Buharlaştırcı Emisyon Sistemi (EVAP) Basıncı Devresi Düşük Kaçak Var",
+    "Olası Nedenler": "Tesisat Hat Kopukluğu veya Şaseye Kısa Devre -Buharlaştırcı Emisyon Valfi ( EVAP)"
+  },
+  {
+    "Arıza Kodu": "P0499",
+    "Arıza Açıklaması": "Buharlaştırcı Emisyon Sistemi (EVAP) Basıncı Devresi Yüksek Kaçak Var",
+    "Olası Nedenler": "Tesisat Hat Kopukluğu veya Artıya Kısa Devre -Buharlaştırcı Emisyon Valfi ( EVAP)"
+  },
+  {
+    "Arıza Kodu": "P0500",
+    "Arıza Açıklaması": "Araç Hız Sensörü Arızası (Sürüş Hızı Anlamsız)",
+    "Olası Nedenler": "Sinyal Hatalı – Program-Araç Hız Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0501",
+    "Arıza Açıklaması": "Araç Hız Sensörü Sınırı/Performans",
+    "Olası Nedenler": "Tesisat-Araç Hız Sensörü-Hız Sinyali Hatalı-CAN bus"
+  },
+  {
+    "Arıza Kodu": "P0502",
+    "Arıza Açıklaması": "Araç Hız Sensörü Düşük Girişi",
+    "Olası Nedenler": "Motor Tesisatı Şaseye Kısa Devre-Araç Hız Sensörü -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0503",
+    "Arıza Açıklaması": "Araç Hız Sensörü Yüksek Girişi",
+    "Olası Nedenler": "Motor Tesisatı Artıya Kısa Devre-Araç Hız Sensörü -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0504",
+    "Arıza Açıklaması": "Fren Swiçi (AVB) Düzeltme Hatası",
+    "Olası Nedenler": "Tesisat-Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0505",
+    "Arıza Açıklaması": "Rölanti Hava Kontrol Sistem Arızası",
+    "Olası Nedenler": "Tesisat-Hava Kontrol Valfi-Bogaz Kelebeği-Boğaz Kelebek Valfi-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0506",
+    "Arıza Açıklaması": "Rölanti Hava Kontrol Sistem RPM Beklenenden Düşük",
+    "Olası Nedenler": "Tesisat-Hava Kontrol Valfi-Bogaz Kelebeği-Boğaz Kelebek Valfi-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0507",
+    "Arıza Açıklaması": "Rölanti Hava Kontrol Sistem RPM Beklenenden Yüksek",
+    "Olası Nedenler": "Tesisat-Hava Kontrol Valfi-Bogaz Kelebeği-Boğaz Kelebek Valfi-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0508",
+    "Arıza Açıklaması": "Rölanti Hava Kontrol Devresi IAC Düşük",
+    "Olası Nedenler": "Tesisat Hat Kopukluğu veya Şaseye Kısa Devre -Hava Kontrol Valfi-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0509",
+    "Arıza Açıklaması": "Rölanti Hava Kontrol Devresi IAC Yüksek",
+    "Olası Nedenler": "Tesisat Hat Kopukluğu veya Şaseye Kısa Devre -Hava Kontrol Valfi-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0510",
+    "Arıza Açıklaması": "Kapalı Gaz Durum Dügmesi Arızası",
+    "Olası Nedenler": "Tesisat-Kapalı Gaz Durum Swiç-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0511",
+    "Arıza Açıklaması": "Rolanti Hava Kontrol Devresinde Hata",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Rolanti Hava Kontrol Valfi -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0512",
+    "Arıza Açıklaması": "Marş Talebi Devresinde Hata",
+    "Olası Nedenler": "Tesisat-İmobilezir Sistemi/Röle"
+  },
+  {
+    "Arıza Kodu": "P0513",
+    "Arıza Açıklaması": "İmoblizer Anahtar Sinyali Anlamsız",
+    "Olası Nedenler": "İmobilezir Sistemi/Röle"
+  },
+  {
+    "Arıza Kodu": "P0514",
+    "Arıza Açıklaması": "Akü Sıcaklık Sensörü Devresinde Performans",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Akü Sıcaklık Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0515",
+    "Arıza Açıklaması": "Akü Sıcaklık Sensörü Devresinde Hata",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Akü Sıcaklık Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0516",
+    "Arıza Açıklaması": "Akü Sıcaklık Sensörü Devresinde Düşük Sinyal",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Hat Kopuk Veya Şaseye Kısa Devre-Akü Sıcaklık Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0517",
+    "Arıza Açıklaması": "Akü Sıcaklık Sensörü Devresinde Yüksek Sinyal",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Hat Kopuk Veya Artıya Kısa Devre-Akü Sıcaklık Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0518",
+    "Arıza Açıklaması": "Rolanti Hava Kontrol Devresinde Aralıklar",
+    "Olası Nedenler": "Tesisat-Hava Kontrol Valfi-Gevşek Pin Baglantıları-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0519",
+    "Arıza Açıklaması": "Rolanti Hava Kontrol Devresinde Performans",
+    "Olası Nedenler": "Tesisat-Hava Kontrol Valfi-Gevşek Pin Baglantıları-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0520",
+    "Arıza Açıklaması": "Motor Yağ Basınç Sensör /Dügme Devre Arızası",
+    "Olası Nedenler": "Tesisat-Motor Yag Basınç Sensör /Dügme -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0521",
+    "Arıza Açıklaması": "Motor Yağ Basınç Sensör /Dügme Devre Sınırı/Performans",
+    "Olası Nedenler": "Tesisat-Motor Yag Basınç Sensör /Dügme"
+  },
+  {
+    "Arıza Kodu": "P0522",
+    "Arıza Açıklaması": "Motor Yağ Basınç Sensör /Dügme Devre Düşük Girişi",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Hat Kopuk Veya Şaseye Kısa Devre-Yag Basınç Sensör /Dügme-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0523",
+    "Arıza Açıklaması": "Motor Yağ Basınç Sensör /Dügme Devre Yüksek Girişi",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Hat Kopuk Artıya Kısa Devre-Yag Basınç Sensör /Dügme-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0524",
+    "Arıza Açıklaması": "Motor Yağ Basınçı Düşük",
+    "Olası Nedenler": "Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0525",
+    "Arıza Açıklaması": "Sabit Gaz Erişim Düzeneği Devresi Performans Hatası",
+    "Olası Nedenler": "Tesisat-gevşek pin baglantıları ve kablo baglantıları-Sabit Gaz Kontrol Modülü"
+  },
+  {
+    "Arıza Kodu": "P0526",
+    "Arıza Açıklaması": "Motor Sogutma Suyu Fanı Hız Sensör Devresinde Hata",
+    "Olası Nedenler": "Tesisat-gevşek pin baglantıları ve kablo baglantıları-Sogutma suyu Fan Motoru Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0527",
+    "Arıza Açıklaması": "Motor Sogutma Suyu Fanı Hız Sensör Devresinde Performansı",
+    "Olası Nedenler": "Tesisat-gevşek pin baglantıları ve kablo baglantıları-Sogutma suyu Fan Motoru Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0528",
+    "Arıza Açıklaması": "Motor Sogutma Suyu Fanı Hız Sensör Devresinde Sinyal Yok",
+    "Olası Nedenler": "Tesisat-gevşek pin baglantıları ve kablo baglantıları-Sogutma suyu Fan Motoru Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0529",
+    "Arıza Açıklaması": "Motor Sogutma Suyu Fanı Hız Sensör Devresinde Aralıklar",
+    "Olası Nedenler": "Tesisat-gevşek pin baglantıları ve kablo baglantıları-Sogutma suyu Fan Motoru Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0530",
+    "Arıza Açıklaması": "Klima Soğutucusu Sıvı Basınç Sensör Devre Arızası",
+    "Olası Nedenler": "Tesisat-Klima Soğutucusu Sıvı Basınç Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0531",
+    "Arıza Açıklaması": "Klima Soğutucusu Sıvı Basınç Sensör Devre Sınırlı/Performans",
+    "Olası Nedenler": "Klima Soğutucusu Sıvı Basınç Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0532",
+    "Arıza Açıklaması": "Klima Soğutucusu Sıvı Basınç Sensör Devre Düşük Girişi",
+    "Olası Nedenler": "Tesisat-Sogutma Sıvısı Miktarı Düşük(Gaz Miktarını Tamamlayın) -Klima Soğutucusu Sıvı Basınç Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0533",
+    "Arıza Açıklaması": "Klima Soğutucusu Sıvı Basınç Sensör Devre Yüksek Girişi",
+    "Olası Nedenler": "Tesisat-Sogutma Sıvısı Miktarı Yüksek(Gaz Miktarını Tamamlayın) -Klima Soğutucusu Sıvı Basınç Sensörü-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0534",
+    "Arıza Açıklaması": "Klima Soğutucusu Sıvı Şarjı Kayıp",
+    "Olası Nedenler": "Klimada Sızıntı Var-Klıma Borularının Kontrolü-Klima Sogutucu Sıvısı Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0535",
+    "Arıza Açıklaması": "Klima Buharlaştırıcı Sıcaklık Sezicisi devresinde Hata",
+    "Olası Nedenler": "Tesisat-gevşek pin baglantıları ve kablo baglantıları-Buharlaştırıcı Isı Sezicisi-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0536",
+    "Arıza Açıklaması": "Klima Buharlaştırıcı Sıcaklık Sezicisi devresinde Performans",
+    "Olası Nedenler": "Tesisat-gevşek pin baglantıları ve kablo baglantıları-Buharlaştırıcı Isı Sezicisi-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0537",
+    "Arıza Açıklaması": "Klima Buharlaştırıcı Sıcaklık Sezicisi devresinde Düşük Sinyal",
+    "Olası Nedenler": "Tesisat-gevşek pin baglantıları ve kablo baglantıları-Şaseye Kısa Devre-Buharlaştırıcı Isı Sezicisi-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0538",
+    "Arıza Açıklaması": "Klima Buharlaştırıcı Sıcaklık Sezicisi devresinde Yüksek Sinyal",
+    "Olası Nedenler": "Tesisat-gevşek pin baglantıları ve kablo baglantıları-Artıya Kısa Devre-Buharlaştırıcı Isı Sezicisi-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0539",
+    "Arıza Açıklaması": "Klima Buharlaştırıcı Sıcaklık Sezicisi devresinde Aralıklarla",
+    "Olası Nedenler": "Tesisat-gevşek pin baglantıları ve kablo baglantıları-Buharlaştırıcı Isı Sezicisi-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0540",
+    "Arıza Açıklaması": "Giriş Hava Sıcaklık Isıtıcısı A Devresinde Hata",
+    "Olası Nedenler": "Tesisat-Giriş Havası Sıcaklık Isıtıcısı-Röle"
+  },
+  {
+    "Arıza Kodu": "P0541",
+    "Arıza Açıklaması": "Giriş Hava Sıcaklık Isıtıcısı A Devresinde Sinyal Düşük",
+    "Olası Nedenler": "Tesisat-Giriş Havası Sıcaklık Isıtıcısı-Hat kopuklugu veya Şaseye Kısa Devre -Röle"
+  },
+  {
+    "Arıza Kodu": "P0542",
+    "Arıza Açıklaması": "Giriş Hava Sıcaklık Isıtıcısı A Devresinde Sinyal Yüksek",
+    "Olası Nedenler": "Tesisat-Giriş Havası Sıcaklık Isıtıcısı-Hat kopuklugu veya Artıya Kısa Devre -Röle"
+  },
+  {
+    "Arıza Kodu": "P0543",
+    "Arıza Açıklaması": "Giriş Hava Sıcaklık Isıtıcısı A Devresinde Sinyali Açık Devre",
+    "Olası Nedenler": "Tesisat-Giriş Havası Sıcaklık Isıtıcısı-Röle"
+  },
+  {
+    "Arıza Kodu": "P0544",
+    "Arıza Açıklaması": "Katalatik Konvektör Öncesi Eksoz Gazı Sıcaklık Sezicisi Devresi Bank 1 Arızalı",
+    "Olası Nedenler": "Tesisat-Katalatik Konvektör Öncesi Eksoz Gazı Sıcaklık Sezicisi-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0545",
+    "Arıza Açıklaması": "Katalatik Konvektör Öncesi Eksoz Gazı Sıcaklık Sezicisi Devresi Bank 1 Sinyali Düşük",
+    "Olası Nedenler": "Tesisat-Katalatik Konvektör Öncesi Eksoz Gazı Sıcaklık Sezicisi-Şaseye Kısa Devre -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0546",
+    "Arıza Açıklaması": "Katalatik Konvektör Öncesi Eksoz Gazı Sıcaklık Sezicisi Devresi Bank 1 Sinyali Yüksek",
+    "Olası Nedenler": "Tesisat-Katalatik Konvektör Öncesi Eksoz Gazı Sıcaklık Sezicisi-Artıya Kısa Devre -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0547",
+    "Arıza Açıklaması": "Katalatik Konvektör Öncesi Eksoz Gazı Sıcaklık Sezicisi Devresi Bank 2 Arızalı",
+    "Olası Nedenler": "Tesisat-Katalatik Konvektör Öncesi Eksoz Gazı Sıcaklık Sezicisi-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0548",
+    "Arıza Açıklaması": "Katalatik Konvektör Öncesi Eksoz Gazı Sıcaklık Sezicisi Devresi Bank 2 Sinyali Düşük",
+    "Olası Nedenler": "Tesisat-Katalatik Konvektör Öncesi Eksoz Gazı Sıcaklık Sezicisi-Şaseye Kısa Devre -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0549",
+    "Arıza Açıklaması": "Katalatik Konvektör Öncesi Eksoz Gazı Sıcaklık Sezicisi Devresi Bank 2 Sinyali Yüksek",
+    "Olası Nedenler": "Tesisat-Katalatik Konvektör Öncesi Eksoz Gazı Sıcaklık Sezicisi-Artıya Kısa Devre -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0550",
+    "Arıza Açıklaması": "Hidrolik Direksiyon Basınç Sensörü Devresi Arızası",
+    "Olası Nedenler": "Tesisat-Hidrolik Direksiyon Basınç Sensörü -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0551",
+    "Arıza Açıklaması": "Hidrolik Direksiyon Basınç Sensörü Devresi Sınırı/Performası",
+    "Olası Nedenler": "Tesisat-Hidrolik Direksiyon Basınç Sensörü -Baypast Sistemi"
+  },
+  {
+    "Arıza Kodu": "P0552",
+    "Arıza Açıklaması": "Hidrolik Direksiyon Basınç Sensörü Devresi Düşük Girişi",
+    "Olası Nedenler": "Tesisat-Hidrolik Direksiyon Basınç Sensörü -Şaseye Kısa Devre-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0553",
+    "Arıza Açıklaması": "Hidrolik Direksiyon Basınç Sensörü Devresi Yüksek Girişi",
+    "Olası Nedenler": "Tesisat-Hidrolik Direksiyon Basınç Sensörü -Artıya Kısa Devre-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0554",
+    "Arıza Açıklaması": "Hidrolik Direksiyon Basınç Sensörü Devresi Aralıkları",
+    "Olası Nedenler": "Tesisat-Hidrolik Direksiyon Basınç Sensörü -Gevşek Pin Bağlantıları ve Kabloların Kontrolu-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0555",
+    "Arıza Açıklaması": "Fren Servo Basınç Sensörü Devresinde Arızalı",
+    "Olası Nedenler": "Tesisat-Fren Servo Basınç Sensörü-Gevşek Pin ve Kablo Baglantıları -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0556",
+    "Arıza Açıklaması": "Fren Servo Basınç Sensörü Devresinde Performans",
+    "Olası Nedenler": "Tesisat-Fren Servo Basınç Sensörü-Gevşek Pin ve Kablo Baglantıları -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0557",
+    "Arıza Açıklaması": "Fren Servo Basınç Sensörü Devresinde Sinyal Düşük",
+    "Olası Nedenler": "Tesisat-Fren Servo Basınç Sensörü-Şaseye Kısa Devre -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0558",
+    "Arıza Açıklaması": "Fren Servo Basınç Sensörü Devresinde Sinyal Yüksek",
+    "Olası Nedenler": "Tesisat-Fren Servo Basınç Sensörü-Artıya Kısa Devre -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0559",
+    "Arıza Açıklaması": "Fren Servo Basınç Sensörü Devresinde Aralıklarla",
+    "Olası Nedenler": "Tesisat-Fren Servo Basınç Sensörü-Gevşek Pin ve Kablo Baglantıları -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0560",
+    "Arıza Açıklaması": "Sistem Voltaj Arızası",
+    "Olası Nedenler": "Tesisat-Gevşek Pin ve Kablo Baglantıları -Batarya-Altarnatör"
+  },
+  {
+    "Arıza Kodu": "P0561",
+    "Arıza Açıklaması": "Sistem Voltajı Düzensiz",
+    "Olası Nedenler": "Tesisat-Gevşek Pin ve Kablo Baglantıları -Batarya-Altarnatör"
+  },
+  {
+    "Arıza Kodu": "P0562",
+    "Arıza Açıklaması": "Sistem Voltajı Düşük",
+    "Olası Nedenler": "Tesisat-Gevşek Pin ve Kablo Baglantıları -Batarya-Altarnatör"
+  },
+  {
+    "Arıza Kodu": "P0563",
+    "Arıza Açıklaması": "Sistem Voltajı Yüksek",
+    "Olası Nedenler": "Altarnatör"
+  },
+  {
+    "Arıza Kodu": "P0564",
+    "Arıza Açıklaması": "Crus Kontrol Sistem Çok Fonksiyonlu Swiç Giriş A Devresi",
+    "Olası Nedenler": "Tesisat-Gevşek Pin ve Kablo Baglantıları -Çok Fonksuyon Swiç-Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0565",
+    "Arıza Açıklaması": "Crus Kontrol Sistem Açma Sinyalinde hata",
+    "Olası Nedenler": "Tesisat-Crus Kontrol Swiçleri -Motor Elektronoği"
+  },
+  {
+    "Arıza Kodu": "P0566",
+    "Arıza Açıklaması": "Crus Kontrol Sistem Kapatma Sinyalinde hata",
+    "Olası Nedenler": "Tesisat-Crus Kontrol Swiçleri -Motor Elektronoği"
+  },
+  {
+    "Arıza Kodu": "P0567",
+    "Arıza Açıklaması": "Crus Kontrol Sistem Ayar Swiç’i Sabitleme Sinyalinde hata",
+    "Olası Nedenler": "Tesisat-Crus Kontrol Swiçleri -Motor Elektronoği"
+  },
+  {
+    "Arıza Kodu": "P0568",
+    "Arıza Açıklaması": "Crus Kontrol Sistem Ayar Swiç’i Zamanlama Sinyalinde hata",
+    "Olası Nedenler": "Tesisat-Crus Kontrol Swiçleri -Motor Elektronoği"
+  },
+  {
+    "Arıza Kodu": "P0569",
+    "Arıza Açıklaması": "Crus Kontrol Sistem Ayar Swiç’i Zamanlama Sinyalinde hata",
+    "Olası Nedenler": "Tesisat-Crus Kontrol Swiçleri -Motor Elektronoği"
+  },
+  {
+    "Arıza Kodu": "P0570",
+    "Arıza Açıklaması": "Crus Kontrol Sistemi Pedal Sensöründe Hata",
+    "Olası Nedenler": "Tesisat-Crus Kontrol Pedal Sensörü -Motor Elektronoği"
+  },
+  {
+    "Arıza Kodu": "P0571",
+    "Arıza Açıklaması": "Crus Kontrol Sistemi / Fren Swiç A Devresi Arızalı",
+    "Olası Nedenler": "Tesisat–Gevşek Pin BağlantılarıCrus Kontrol Sistemi / Çok Fonksiyonlu Swiç -Baypast Sistemi"
+  },
+  {
+    "Arıza Kodu": "P0572",
+    "Arıza Açıklaması": "Crus Kontrol Sistemi / Fren Swiç A Devresi Düşük",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Crus Kontrol Sistemi / Çok Fonksiyonlu Swiç -Şaseye Kısa Devre-Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0573",
+    "Arıza Açıklaması": "Crus Kontrol Sistemi / Fren Swiç A Devresi Yüksek",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Crus Kontrol Sistemi / Çok Fonksiyonlu Swiç -Artıya Kısa Devre-Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0574",
+    "Arıza Açıklaması": "Crus Kontrol Sistemi / Araç Hız Sinyali Yüksek",
+    "Olası Nedenler": "Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0575",
+    "Arıza Açıklaması": "Crus Kontrol Sistemi / Giriş Devreside Hata",
+    "Olası Nedenler": "Tesisat–Gevşek Pin BağlantılarıCrus Kontrol Sistemi / Çok Fonksiyonlu Swiç -Baypast Sistemi"
+  },
+  {
+    "Arıza Kodu": "P0576",
+    "Arıza Açıklaması": "Crus Kontrol Sistemi / Giriş Devreside Sinyal Düşük",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Crus Kontrol Sistemi / Çok Fonksiyonlu Swiç -Şaseye Kısa Devre-Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0577",
+    "Arıza Açıklaması": "Crus Kontrol Sistemi / Giriş Devreside Hata Yüksek",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Crus Kontrol Sistemi / Çok Fonksiyonlu Swiç -Artıya Kısa Devre-Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0578",
+    "Arıza Açıklaması": "Crus Kontrol Sistemi / Çok Fonksiyonlu Swiç Giriş Devresi A Arızalı",
+    "Olası Nedenler": "Tesisat-Crus Kontrol Sistemi / Çok Fonksiyonlu Swiç -Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0579",
+    "Arıza Açıklaması": "Crus Kontrol Sistemi / Çok Fonksiyonlu Swiç Giriş Devresi A Sınırlı / Performans",
+    "Olası Nedenler": "Tesisat-Crus Kontrol Sistemi / Çok Fonksiyonlu Swiç -Baypast Sistemi"
+  },
+  {
+    "Arıza Kodu": "P0580",
+    "Arıza Açıklaması": "Crus Kontrol Sistemi / Çok Fonksiyonlu Swiç Giriş Devresi A Sinyal Düşük",
+    "Olası Nedenler": "Tesisat-Crus Kontrol Sistemi / Çok Fonksiyonlu Swiç -Şaseye Kısa Devre-Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0581",
+    "Arıza Açıklaması": "Crus Kontrol Sistemi / Çok Fonksiyonlu Swiç Giriş Devresi A Sinyal Yüksek",
+    "Olası Nedenler": "Tesisat-Crus Kontrol Sistemi / Çok Fonksiyonlu Swiç -Artıya Kısa Devre-Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0582",
+    "Arıza Açıklaması": "ol Devresi Açık",
+    "Olası Nedenler": "Tesisat-Crus Kontrol Sistemi / Vakum Kontrol Devresi -Baypast Sistemi"
+  },
+  {
+    "Arıza Kodu": "P0583",
+    "Arıza Açıklaması": "Crus Kontrol Sistemi / Vakum Kontrol Devresi Düşük",
+    "Olası Nedenler": "Tesisat-Crus Kontrol Sistemi / Vakum Kontrol Devresi -Şaseye Kısa Devre-Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0584",
+    "Arıza Açıklaması": "Crus Kontrol Sistemi / Vakum Kontrol Devresi Yüksek",
+    "Olası Nedenler": "Tesisat-Crus Kontrol Sistemi / Vakum Kontrol Devresi -Artıya Kısa Devre-Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0585",
+    "Arıza Açıklaması": "Crus Kontrol Sistemi / Çok Fonksiyonlu Swiç Giriş Devresi A /B Kontrolünde Hata",
+    "Olası Nedenler": "Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0586",
+    "Arıza Açıklaması": "Crus Kontrol Sistemi / Ventil Kontrol Devresi Açık",
+    "Olası Nedenler": "Tesisat-Crus Kontrol Sistemi / Ventili selonoid -Baypast Sistemi"
+  },
+  {
+    "Arıza Kodu": "P0587",
+    "Arıza Açıklaması": "Crus Kontrol Sistemi / Ventil Kontrol Devresi Düşük",
+    "Olası Nedenler": "Tesisat-Crus Kontrol Sistemi / Ventili selonoid-Şaseye Kısa Devre-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0588",
+    "Arıza Açıklaması": "Crus Kontrol Sistemi / Ventil Kontrol Devresi Yüksek",
+    "Olası Nedenler": "Tesisat-Crus Kontrol Sistemi / Ventili selonoid -Artıya Kısa Devre-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0589",
+    "Arıza Açıklaması": "Crus Kontrol Sistemi / Çok Fonksiyonlu Swiç Giriş Devresi B Arızalı",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Crus Kontrol Sistemi / Çok Fonksiyonlu Swiç -mekanik hata"
+  },
+  {
+    "Arıza Kodu": "P0590",
+    "Arıza Açıklaması": "Crus Kontrol Sistemi / Çok Fonksiyonlu Swiç Giriş Devresi B Sıkışmış",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Crus Kontrol Sistemi / Çok Fonksiyonlu Swiç -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0591",
+    "Arıza Açıklaması": "Crus Kontrol Sistemi / Çok Fonksiyonlu Swiç Giriş Devresi B Sınırlı / Performans",
+    "Olası Nedenler": "Tesisat–Gevşek Pin BağlantılarıCrus Kontrol Sistemi / Çok Fonksiyonlu Swiç -Baypast Sistemi"
+  },
+  {
+    "Arıza Kodu": "P0592",
+    "Arıza Açıklaması": "Crus Kontrol Sistemi / Çok Fonksiyonlu Swiç Giriş Devresi B Sinyal Düşük",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Crus Kontrol Sistemi / Çok Fonksiyonlu Swiç -Şaseye Kısa Devre-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0593",
+    "Arıza Açıklaması": "Crus Kontrol Sistemi / Çok Fonksiyonlu Swiç Giriş Devresi B Sinyal Yüksek",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Crus Kontrol Sistemi / Çok Fonksiyonlu Swiç -Artıya Kısa Devre-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0594",
+    "Arıza Açıklaması": "Crus Kontrol Sistemi / Bağlantı Düzeneği Açık",
+    "Olası Nedenler": "Tesisat–Gevşek Pin BağlantılarıCrus Kontrol Sistemi / Çok Fonksiyonlu Swiç -Baypast Sistemi"
+  },
+  {
+    "Arıza Kodu": "P0595",
+    "Arıza Açıklaması": "Crus Kontrol Sistemi / Bağlantı Düzeneği Sinyali Düşük",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Crus Kontrol Sistemi / Çok Fonksiyonlu Swiç -Şaseye Kısa Devre-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0596",
+    "Arıza Açıklaması": "Crus Kontrol Sistemi / Bağlantı Düzeneği Sinyali Yüksek",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Crus Kontrol Sistemi / Çok Fonksiyonlu Swiç -Artıya Kısa Devre-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0597",
+    "Arıza Açıklaması": "Termostat Isıtma Kontrol Sistemi Açık",
+    "Olası Nedenler": "Tesisat–Gevşek Pin BağlantılarıTermostat Isıtma -Baypast Sistemi"
+  },
+  {
+    "Arıza Kodu": "P0598",
+    "Arıza Açıklaması": "Termostat Isıtma Kontrol Sistemi Düşük",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Termostat Isıtma -Şaseye Kısa Devre-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0599",
+    "Arıza Açıklaması": "Termostat Isıtma Kontrol Sistemi Yüksek",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Termostat Isıtma -Artıya Kısa Devre-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0600",
+    "Arıza Açıklaması": "CAN-BUS (Bilgi Hattı) Hata",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-CAN-BUS (Bilgi Hattı)-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0601",
+    "Arıza Açıklaması": "Motor Elektroniği Hafıza Arızası Hatası",
+    "Olası Nedenler": "Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0602",
+    "Arıza Açıklaması": "Motor Elektroniği Programlama Hatası",
+    "Olası Nedenler": "Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0603",
+    "Arıza Açıklaması": "Motor Elektroniği Arıza Kayıt Hafızasında Hata",
+    "Olası Nedenler": "Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0604",
+    "Arıza Açıklaması": "Motor Elektroniği RAM İşlemcisinde Hata",
+    "Olası Nedenler": "Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0605",
+    "Arıza Açıklaması": "Motor Elektroniği ROM İşlemcisinde Hata",
+    "Olası Nedenler": "Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0606",
+    "Arıza Açıklaması": "Motor Elektroniği İşletme Hatası",
+    "Olası Nedenler": "Motor Elektroniği /"
+  },
+  {
+    "Arıza Kodu": "P0607",
+    "Arıza Açıklaması": "Vuruntu Sensörü Devresi Arızalı (Motor Elektroniği Performans Hatası)",
+    "Olası Nedenler": "Vuruntu Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0608",
+    "Arıza Açıklaması": "Motor Elektroniği Araç Hız Sensörü Çıkış Devresi A Arızası",
+    "Olası Nedenler": "Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0609",
+    "Arıza Açıklaması": "Motor Elektroniği Araç Hız Sensörü Çıkış Devresi B Arızası",
+    "Olası Nedenler": "Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0610",
+    "Arıza Açıklaması": "Kontrol Modülü Opsiyon Arızası",
+    "Olası Nedenler": "Kontrol Modülü Role"
+  },
+  {
+    "Arıza Kodu": "P0611",
+    "Arıza Açıklaması": "Yakıt Enjektör Kontrol Modülü Performans Hatası",
+    "Olası Nedenler": "Yakıt Enjektör Kontrol Modülü Röle"
+  },
+  {
+    "Arıza Kodu": "P0612",
+    "Arıza Açıklaması": "Yakıt Enjektör Kontrol Modülü Röle Devresi",
+    "Olası Nedenler": "Yakıt Enjektör Kontrol Modülü Röle-tesissat"
+  },
+  {
+    "Arıza Kodu": "P0613",
+    "Arıza Açıklaması": "Otomatik Şanzıman İşletim Hatası",
+    "Olası Nedenler": "şanzıman elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0614",
+    "Arıza Açıklaması": "Motor Elektroniği / Şanzıman Elektroniği Arasındaki iletişim Hatası",
+    "Olası Nedenler": "Motor Elektroniği-şanzıman elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0615",
+    "Arıza Açıklaması": "Başlatıcı rölesi (Marş Motoru) Voltaj arızalı",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Motor Elektroniği Başlatıcı rölesi"
+  },
+  {
+    "Arıza Kodu": "P0616",
+    "Arıza Açıklaması": "Başlatıcı rölesi (Marş Motoru) Voltaj Düşük",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Hat Kesintisi Şaseye Kısa Devre – Motor Elektroniği / Başlatıcı rölesi"
+  },
+  {
+    "Arıza Kodu": "P0617",
+    "Arıza Açıklaması": "Başlatıcı rölesi (Marş Motoru) Voltaj Yüksek",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Hat Kesintisi Artıya Kısa Devre Başlatıcı rölesi"
+  },
+  {
+    "Arıza Kodu": "P0618",
+    "Arıza Açıklaması": "Altarnatif Yakıt Kontrol Modülü (Yedek Deger) Hafıza Hatası",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Hat Kesintisi Şaseye Kısa Devre – Motor Elektroniği / Altarnatif Yakıt Kontrol Modülü"
+  },
+  {
+    "Arıza Kodu": "P0619",
+    "Arıza Açıklaması": "Altarnatif Yakıt Kontrol Modülü RAM / ROM İşlemci Hatası",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Hat Kesintisi Artıya Kısa Devre Altarnatif Yakıt Kontrol Modülü"
+  },
+  {
+    "Arıza Kodu": "P0620",
+    "Arıza Açıklaması": "Alternatör Kontrol Sisteminde Hata",
+    "Olası Nedenler": "Tesisat-Batarya-Altarnatör-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0621",
+    "Arıza Açıklaması": "Alternatör Kontrol Sisteminde Lamba Devresinde Hata",
+    "Olası Nedenler": "Tesisat-Batarya-Altarnatör-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0622",
+    "Arıza Açıklaması": "Alternatör Hatası",
+    "Olası Nedenler": "Tesisat-Alternatör Kontrol Sisteminde Lamba Devresi-Altarnatör-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0623",
+    "Arıza Açıklaması": "Şarj Kontrol Lambası Devresinde Hata",
+    "Olası Nedenler": "Tesisat–Motor Elektroniği-Şarj Kontrol Lambası Devresi"
+  },
+  {
+    "Arıza Kodu": "P0624",
+    "Arıza Açıklaması": "Şarj Kontrol Lambası Devresinde Yanıp Sönme Hatası",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Motor Elektroniği /Şarj Kontrol Lambası Devresi"
+  },
+  {
+    "Arıza Kodu": "P0625",
+    "Arıza Açıklaması": "Şarj Terminal Devresi Düşük",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Hat Kesintisi Şaseye Kısa Devre – Motor Elektroniği / Şarj Terminal"
+  },
+  {
+    "Arıza Kodu": "P0626",
+    "Arıza Açıklaması": "Şarj Terminal Devresi Yüksek",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Hat Kesintisi Artıya Kısa DevreŞarj Terminal"
+  },
+  {
+    "Arıza Kodu": "P0627",
+    "Arıza Açıklaması": "Yakıt Pompası Kontrol Devresi Açık",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Motor Elektroniği /Yakıt Pompası"
+  },
+  {
+    "Arıza Kodu": "P0628",
+    "Arıza Açıklaması": "Yakıt Pompası Kontrol Devresi Düşük",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Hat Kesintisi Şaseye Kısa Devre – Motor Elektroniği / Yakıt Pompası"
+  },
+  {
+    "Arıza Kodu": "P0629",
+    "Arıza Açıklaması": "Yakıt Pompası Kontrol Devresi Yüksek",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Hat Kesintisi Artıya Kısa Devre Yakıt Pompası"
+  },
+  {
+    "Arıza Kodu": "P0630",
+    "Arıza Açıklaması": "Araç Şasi Proğramlama Hatası / Motor Elektroniği",
+    "Olası Nedenler": "Motor elektroniği / Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0631",
+    "Arıza Açıklaması": "Araç Şasi Proğramlama Hatası / Şanzıman Elektroniği",
+    "Olası Nedenler": "Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0632",
+    "Arıza Açıklaması": "Gösterge Paneli Proğramlama Hatası / Motor Elektroniği",
+    "Olası Nedenler": "Motor elektroniği / Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0633",
+    "Arıza Açıklaması": "İmobilezir Proğramlama Hatası / Motor Elektroniği",
+    "Olası Nedenler": "Motor elektroniği / Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0634",
+    "Arıza Açıklaması": "Motor elektroniği / Şanzıman Elektroniği (Dahili) Sıcaklığı Çok Fazla",
+    "Olası Nedenler": "Motor elektroniği / Şanzıman Elektroniği-mekanik hata"
+  },
+  {
+    "Arıza Kodu": "P0635",
+    "Arıza Açıklaması": "Direksiyon Kontrol Devresinde Hata (Power Direksiyon)",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Motor Elektroniği /Direksiyon Kontrol Devresi"
+  },
+  {
+    "Arıza Kodu": "P0636",
+    "Arıza Açıklaması": "Direksiyon Kontrol Devresinde Düşük Sinyal (Power Direksiyon)",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Hat Kesintisi Şaseye Kısa Devre – Motor Elektroniği / Direksiyon Kontrol Devresi"
+  },
+  {
+    "Arıza Kodu": "P0637",
+    "Arıza Açıklaması": "Direksiyon Kontrol Devresinde Yüksek Sinyal (Power Direksiyon)",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Hat Kesintisi Artıya Kısa Devre Direksiyon Kontrol Devresi"
+  },
+  {
+    "Arıza Kodu": "P0638",
+    "Arıza Açıklaması": "Gaz Kelebeği Ayarlayıcısı Bank 1 Performans",
+    "Olası Nedenler": "Anlamlılık : Çıkış Kademesinin Aşırı Sıcaklığı"
+  },
+  {
+    "Arıza Kodu": "P0639",
+    "Arıza Açıklaması": "Gaz Kelebeği Ayarlayıcısı Bank 2 Performans",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Gaz Kelebeği Ayarlayıcısı"
+  },
+  {
+    "Arıza Kodu": "P0640",
+    "Arıza Açıklaması": "Giriş Hava Sıcaklık Kontrol Devresinde Hata",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Gaz Kelebeği Ayarlayıcısı"
+  },
+  {
+    "Arıza Kodu": "P0641",
+    "Arıza Açıklaması": "Sensör Referans Voltajı A Devresi Açık",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Motor Elektroniği / Vuruntu Kontrol Devresi"
+  },
+  {
+    "Arıza Kodu": "P0642",
+    "Arıza Açıklaması": "Motor Elektroniği / Vuruntu Kontrol Devresinde Hata (Gerilim Beslemesi)",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Hat Kesintisi Şaseye Kısa Devre – Motor Elektroniği / Vuruntu Kontrol Devresi"
+  },
+  {
+    "Arıza Kodu": "P0643",
+    "Arıza Açıklaması": "Sensör Referans Voltajı A Devresi Yüksek (Gerilim Beslemesi)",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Hat Kesintisi Artıya Kısa Devre Sensör Referans Voltajı"
+  },
+  {
+    "Arıza Kodu": "P0644",
+    "Arıza Açıklaması": "Sürücü Göstergesi Seri Baglantı Hatası",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Motor elektroniği -Sürücü Göstergesi"
+  },
+  {
+    "Arıza Kodu": "P0645",
+    "Arıza Açıklaması": "Klima Sistem Hatası",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Klima sistemi"
+  },
+  {
+    "Arıza Kodu": "P0646",
+    "Arıza Açıklaması": "Klima Kavraması Rölesi Düşük",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Hat Kesintisi Şaseye Kısa Devre – Klima sistemi"
+  },
+  {
+    "Arıza Kodu": "P0647",
+    "Arıza Açıklaması": "Klima Kavraması Rölesi Yüksek",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Hat Kesintisi Artıya Kısa Devre -Klima sistemi"
+  },
+  {
+    "Arıza Kodu": "P0648",
+    "Arıza Açıklaması": "İmobilizer Kontrol Lambası / Devresinde Hata",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Motor elektroniği İmobilizer Kontrol Lambası"
+  },
+  {
+    "Arıza Kodu": "P0649",
+    "Arıza Açıklaması": "Crus Kontrol Lambası devresinde Hata",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Motor elektroniği -Crus Kontrol Lambası"
+  },
+  {
+    "Arıza Kodu": "P0650",
+    "Arıza Açıklaması": "Arıza Göstergesi Devre Arızası",
+    "Olası Nedenler": "Arıza Göstergesi-Tesisat-Gevşek Pin Bağlantıları"
+  },
+  {
+    "Arıza Kodu": "P0651",
+    "Arıza Açıklaması": "Sensör Referans Voltajı B Devresi Açık",
+    "Olası Nedenler": "Artıya Kısa Devre-Tesisat-Gevşek Pin Bağlantıları"
+  },
+  {
+    "Arıza Kodu": "P0652",
+    "Arıza Açıklaması": "Sensör Referans Voltajı B Devresi Düşük",
+    "Olası Nedenler": "Şaseye Kısa Devre -Tesisat-Gevşek Pin Bağlantıları"
+  },
+  {
+    "Arıza Kodu": "P0653",
+    "Arıza Açıklaması": "Sensör Referans Voltajı B Devresi Yüksek",
+    "Olası Nedenler": "Artıya Kısa Devre-Tesisat-Gevşek Pin Bağlantıları"
+  },
+  {
+    "Arıza Kodu": "P0654",
+    "Arıza Açıklaması": "Motor Devri Sinyali Sınırlı / Performans",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Motor elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0655",
+    "Arıza Açıklaması": "Motor Hararet Lambası Çıkış Devresinde hata",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Motor elektroniği -Motor Hararet Lambası"
+  },
+  {
+    "Arıza Kodu": "P0656",
+    "Arıza Açıklaması": "Yakıt Seviyesi (Depo Şamandırası) Çıkış Devresinde Hata",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Motor elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0657",
+    "Arıza Açıklaması": "Erişim Düzeniği (Kablo Tesisatı) Güç Voltajı Açık",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları"
+  },
+  {
+    "Arıza Kodu": "P0658",
+    "Arıza Açıklaması": "Erişim Düzeniği (Kablo Tesisatı) Güç Voltajı Düşük",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Erişim Düzeniği (Kablo Tesisatı) Güç Voltajı Düşük"
+  },
+  {
+    "Arıza Kodu": "P0659",
+    "Arıza Açıklaması": "Erişim Düzeniği (Kablo Tesisatı) Güç Voltajı Yüksek",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Erişim Düzeniği (Kablo Tesisatı) Güç Voltajı Düşük"
+  },
+  {
+    "Arıza Kodu": "P0660",
+    "Arıza Açıklaması": "Manifold Giriş Hava Kontrol Selonoid Bank 1 Devresi Açık",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Manifold Giriş Hava Kontrol Selonoid Bank 1 Devresi"
+  },
+  {
+    "Arıza Kodu": "P0661",
+    "Arıza Açıklaması": "Manifold Giriş Hava Kontrol Selonoid Bank 1 Devresi Düşük",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Hat Kesintisi Şaseye Kısa Devre – Manifold Giriş Hava Kontrol Selonoid Bank 1 Devresi"
+  },
+  {
+    "Arıza Kodu": "P0662",
+    "Arıza Açıklaması": "Manifold Giriş Hava Kontrol Selonoid Bank 1 Devresi Yüksek",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Hat Kesintisi Artıya Kısa Devre -Manifold Giriş Hava Kontrol Selonoid Bank 1 Devresi"
+  },
+  {
+    "Arıza Kodu": "P0663",
+    "Arıza Açıklaması": "Manifold Giriş Hava Kontrol Selonoid Bank 2 Devresi Açık",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Manifold Giriş Hava Kontrol Selonoid Bank 2 Devresi"
+  },
+  {
+    "Arıza Kodu": "P0664",
+    "Arıza Açıklaması": "Manifold Giriş Hava Kontrol Selonoid Bank 2 Devresi Düşük",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Hat Kesintisi Şaseye Kısa Devre – Manifold Giriş Hava Kontrol Selonoid Bank 2 Devresi"
+  },
+  {
+    "Arıza Kodu": "P0665",
+    "Arıza Açıklaması": "Manifold Giriş Hava Kontrol Selonoid Bank 2 Devresi Yüksek",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Hat Kesintisi Artıya Kısa Devre -Manifold Giriş Hava Kontrol Selonoid Bank 2 Devresi"
+  },
+  {
+    "Arıza Kodu": "P0666",
+    "Arıza Açıklaması": "Motor elektroniği / Şanzıman Elektroniği (Dahili) Sıcaklık Sensör Devresinde Hata",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Motor elektroniği / Şanzıman Elektroniği (Dahili) Sıcaklık Sensör Devresi -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0667",
+    "Arıza Açıklaması": "Motor elektroniği / Şanzıman Elektroniği (Dahili) Sıcaklık Sensör Devresinde Performans",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Motor elektroniği / Şanzıman Elektroniği (Dahili) Sıcaklık Sensör Devresi -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0668",
+    "Arıza Açıklaması": "Motor elektroniği / Şanzıman Elektroniği (Dahili) Sıcaklık Sensör Devresinde Sinyal Düşük",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-HatKesintisi ve Şaseye Kısa Devre-Motor elektroniği / Şanzıman Elektroniği (Dahili) Sıcaklık Sensör Devresi -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0669",
+    "Arıza Açıklaması": "Motor elektroniği / Şanzıman Elektroniği (Dahili) Sıcaklık Sensör Devresinde Sinyal Yüksek",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-HatKesintisi ve Şaseye Kısa DevreMotor elektroniği / Şanzıman Elektroniği (Dahili) Sıcaklık Sensör Devresi -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0670",
+    "Arıza Açıklaması": "Isıtma Bujisi Kontrol Modülü Devresinde Hata",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Isıtma Bujisi-Isıtma Kontrol Modülü -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0671",
+    "Arıza Açıklaması": "Isıtma Bujisi Silindir 1 Devresinde Hata",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Isıtma Bujisi-Isıtma Kontrol Modülü -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0672",
+    "Arıza Açıklaması": "Isıtma Bujisi Silindir 2 Devresinde Hata",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Isıtma Bujisi-Isıtma Kontrol Modülü -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0673",
+    "Arıza Açıklaması": "Isıtma Bujisi Silindir 3 Devresinde Hata",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Isıtma Bujisi-Isıtma Kontrol Modülü -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0674",
+    "Arıza Açıklaması": "Isıtma Bujisi Silindir 4 Devresinde Hata",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Isıtma Bujisi-Isıtma Kontrol Modülü -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0675",
+    "Arıza Açıklaması": "Isıtma Bujisi Silindir 5 Devresinde Hata",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Isıtma Bujisi-Isıtma Kontrol Modülü -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0676",
+    "Arıza Açıklaması": "Isıtma Bujisi Silindir 6 Devresinde Hata",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Isıtma Bujisi-Isıtma Kontrol Modülü -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0677",
+    "Arıza Açıklaması": "Isıtma Bujisi Silindir 7 Devresinde Hata",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Isıtma Bujisi-Isıtma Kontrol Modülü -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0678",
+    "Arıza Açıklaması": "Isıtma Bujisi Silindir 8 Devresinde Hata",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Isıtma Bujisi-Isıtma Kontrol Modülü -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0679",
+    "Arıza Açıklaması": "Isıtma Bujisi Silindir 9 Devresinde Hata",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Isıtma Bujisi-Isıtma Kontrol Modülü -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0680",
+    "Arıza Açıklaması": "Isıtma Bujisi Silindir 10 Devresinde Hata",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Isıtma Bujisi-Isıtma Kontrol Modülü -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0681",
+    "Arıza Açıklaması": "Isıtma Bujisi Silindir 11 Devresinde Hata",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Isıtma Bujisi-Isıtma Kontrol Modülü -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0682",
+    "Arıza Açıklaması": "Isıtma Bujisi Silindir 12 Devresinde Hata",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Isıtma Bujisi-Isıtma Kontrol Modülü -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0683",
+    "Arıza Açıklaması": "Isıtma Bujisi Kontrol Modülü ile Motor Elektroniği İletişim Hatası",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Isıtma Kontrol Modülü -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0684",
+    "Arıza Açıklaması": "Isıtma Bujisi Kontrol Modülü ile Motor Elektroniği İletişim Performans hatası",
+    "Olası Nedenler": "Tesisat-Gevşek Pin Bağlantıları-Isıtma Kontrol Modülü -Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0685",
+    "Arıza Açıklaması": "Motor Elektroniği Güç Devresi Rölesi Açık",
+    "Olası Nedenler": "Tesisat-Ana Röle-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0686",
+    "Arıza Açıklaması": "Motor Elektroniği Ana Röle Sinyali Düşük",
+    "Olası Nedenler": "Tesisat-Hatkesinyisi veya Şaseye Kısa Devre-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0687",
+    "Arıza Açıklaması": "Motor Kontrol Rölesi Şaseye Kısa Devre",
+    "Olası Nedenler": "Tesisat-Hatkesinyisi veya Şaseye Kısa Devre-Motor Kontrol Rölesi-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0688",
+    "Arıza Açıklaması": "Motor Kontrol Rölesi Artıya Kısa Devre",
+    "Olası Nedenler": "Tesisat-Hatkesinyisi veya Artıya Kısa Devre-Motor Kontrol Rölesi-Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0689",
+    "Arıza Açıklaması": "Motor Elektroniği Ana Röle Sinyali Düşük Anlamsız",
+    "Olası Nedenler": "Tesisat-Hatkesinyisi veya Şaseye Kısa Devre-Ana Röle – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0690",
+    "Arıza Açıklaması": "Motor Elektroniği Ana Röle Sinyali Yüksek Anlamsız",
+    "Olası Nedenler": "Tesisat-Hatkesinyisi veya Artıya Kısa Devre-Ana Röle – Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0691",
+    "Arıza Açıklaması": "Motor Sogutma Fanı Kademe 1 Şaseye Kısa Devre",
+    "Olası Nedenler": "Tesisat-Hatkesinyisi veya Şaseye Kısa Devre-Motor Sogutma Fanı- Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0692",
+    "Arıza Açıklaması": "Motor Sogutma Fanı Kademe 1 Artıya Kısa Devre",
+    "Olası Nedenler": "Tesisat-Hatkesinyisi veya Artıya Kısa Devre-Motor Sogutma Fanı- Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0693",
+    "Arıza Açıklaması": "Motor Sogutma Fanı Kademe 2 Şaseye Kısa Devre",
+    "Olası Nedenler": "Tesisat-Hatkesinyisi veya Şaseye Kısa Devre-Motor Sogutma Fanı- Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0694",
+    "Arıza Açıklaması": "Motor Sogutma Fanı Kademe 2 Artıya Kısa Devre",
+    "Olası Nedenler": "Tesisat-Hatkesinyisi veya Artıya Kısa Devre-Motor Sogutma Fanı- Motor Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0695",
+    "Arıza Açıklaması": "Motor Sogutma Fanı Kademe 3 Sinyali Düşük",
+    "Olası Nedenler": "Tesisat-Hatkesinyisi veya Şaseye Kısa Devre-Motor Sogutma Fanı"
+  },
+  {
+    "Arıza Kodu": "P0696",
+    "Arıza Açıklaması": "Motor Sogutma Fanı Kademe 3 Sinyali Yüksek",
+    "Olası Nedenler": "Tesisat-Hatkesinyisi veya Artıya Kısa Devre-Motor Sogutma Fanı"
+  },
+  {
+    "Arıza Kodu": "P0697",
+    "Arıza Açıklaması": "Sensör Refarans Voltajı C Devresi Açık",
+    "Olası Nedenler": "Tesisat-Hatkesinyisi veya Artıya Kısa Devre"
+  },
+  {
+    "Arıza Kodu": "P0698",
+    "Arıza Açıklaması": "Sensör Refarans Voltajı C Devresi Sinyal Düşük",
+    "Olası Nedenler": "Tesisat-Hatkesinyisi veya Şaseye Kısa Devre"
+  },
+  {
+    "Arıza Kodu": "P0699",
+    "Arıza Açıklaması": "Sensör Refarans Voltajı C Devresi Sinyal Yüksek",
+    "Olası Nedenler": "Tesisat-Hatkesinyisi veya Artıya Kısa Devre"
+  },
+  {
+    "Arıza Kodu": "P0700",
+    "Arıza Açıklaması": "Şanzıman Kontrol Modülünden Arıza Gösterge Lambası Talebi",
+    "Olası Nedenler": "Tesisat-Motor Elektroniği-Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0701",
+    "Arıza Açıklaması": "Şanzıman Kontrol Modülünden Arıza Gösterge Lambası Talebi Performans Hatası",
+    "Olası Nedenler": "Tesisat-Motor Elektroniği-Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0702",
+    "Arıza Açıklaması": "Şanzıman Kontrol Modülünden Arıza Gösterge Lambası Talebi Elektrik Hatası",
+    "Olası Nedenler": "Tesisat-Motor Elektroniği-Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0703",
+    "Arıza Açıklaması": "Fren Düğmesi Giriş Swiçi B Devresinde Hata",
+    "Olası Nedenler": "Tesisat-Motor Elektroniği – Fren Düğmesi Giriş Swiçi B Devresinde – Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0704",
+    "Arıza Açıklaması": "Kavrama Dügmesi Girişi Devre Arızası",
+    "Olası Nedenler": "Tesisat-Kavrama Dügmesi Sensör /Swiç-Motor Elektroniği-Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0705",
+    "Arıza Açıklaması": "Şanzıman Sınır Sensörü Devre Arızası",
+    "Olası Nedenler": "Tesisat-Şanzıman Sınır Sensörü-Motor Elektroniği-Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0706",
+    "Arıza Açıklaması": "Şanzıman Sınır Sensörü Devre Sınırı/Performansı",
+    "Olası Nedenler": "Tesisat-Şanzıman Sınır Sensörü/Swiç"
+  },
+  {
+    "Arıza Kodu": "P0707",
+    "Arıza Açıklaması": "Şanzıman Sınır Sensörü Devre Düşük Giriş",
+    "Olası Nedenler": "Tesisat-Şanzıman Sınır Sensörü-Hat Kesintisi Şaseye Kısa Devre-Motor Elektroniği-Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0708",
+    "Arıza Açıklaması": "Şanzıman Sınır Sensörü Devre Yüksek Giriş",
+    "Olası Nedenler": "Tesisat-Şanzıman Sınır Sensörü-Hat Kesintisi Artıya Kısa Devre-Motor Elektroniği-Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0709",
+    "Arıza Açıklaması": "Şanzıman Sınır Sensörü Devre Aralıkları",
+    "Olası Nedenler": "Tesisat-Şanzıman Sınır Sensörü-Hat Kesintisi Gevşek pin baglantıları-Motor Elektroniği-Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0710",
+    "Arıza Açıklaması": "Şanzıman Yağı Isısı Devre Arızası",
+    "Olası Nedenler": "Tesisat-Şanzıman Yağ Isısı Sensörü-Motor Elektroniği-Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0711",
+    "Arıza Açıklaması": "Şanzıman Yağı Isısı Devre Sınırı/Performans",
+    "Olası Nedenler": "Tesisat-Şanzıman Yağ Isısı Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0712",
+    "Arıza Açıklaması": "Şanzıman Yağı Isısı Devre Düşük Giriş",
+    "Olası Nedenler": "Tesisat-Şanzıman Isısı Sensörü-Hat Kesintisi Şaseye Kısa Devre-Motor Elektroniği-Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0713",
+    "Arıza Açıklaması": "Şanzıman Yağı Isısı Devre Yüksek Giriş",
+    "Olası Nedenler": "Tesisat-Şanzıman Isısı Sensörü-Hat Kesintisi Artıya Kısa Devre-Motor Elektroniği-Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0714",
+    "Arıza Açıklaması": "Şanzıman Yağı Isısı Devre Aralıklarla",
+    "Olası Nedenler": "Tesisat-Şanzıman Isısı Sensörü-Gevşek Pin Baglantıları-Motor Elektroniği-Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0715",
+    "Arıza Açıklaması": "Türbün Hız Sensörü Devre arızası",
+    "Olası Nedenler": "Tesisat-Türbin Hız Sensörü-Motor Elektroniği-Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0716",
+    "Arıza Açıklaması": "Türbün Hız sensörü Devre sınırı performas hatası",
+    "Olası Nedenler": "Tesisat-Türbin Hız Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0717",
+    "Arıza Açıklaması": "Türbün Hız Sensörü Devresi sinyali yok",
+    "Olası Nedenler": "Tesisat-Türbin Hız Sensörü-Motor Elektroniği-Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0718",
+    "Arıza Açıklaması": "Türbün Hız Sensörü Devre Aralıklarla",
+    "Olası Nedenler": "Tesisat-Türbin Hız Sensörü-Gevşek Pin Ve Kablo Baglantıları-Motor Elektroniği-Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0719",
+    "Arıza Açıklaması": "Tork Konvertör/Fren Dügmesi B Devresi Düşük",
+    "Olası Nedenler": "Tesisat-Türbin Hız Sensörü-Tork Konvektör/Frenleme Swiçi Gevşek Pin Ve Kablo Baglantıları-HatKesintisi ve Şaseye Kısa DevreMotor Elektroniği-Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0720",
+    "Arıza Açıklaması": "Şanzıman Çıkış Hız Sensörü Devre Hatası",
+    "Olası Nedenler": "Tesisat-Şanzıman Çıkış Hız Sensörü-Motor Elektroniği-Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0721",
+    "Arıza Açıklaması": "Şanzıman Çıkış Hız Sensörü Sınırı/Performans",
+    "Olası Nedenler": "Tesisat-Şanzıman Çıkış Hız Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0722",
+    "Arıza Açıklaması": "Şanzıman Çıkış Hız Sensörü Sinyali anlamsız (yok)",
+    "Olası Nedenler": "Tesisat-Şanzıman Çıkış Hız Sensörü-Motor Elektroniği-Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0723",
+    "Arıza Açıklaması": "Şanzıman Çıkış Hız Sensörü Devresi Aralıkları",
+    "Olası Nedenler": "Tesisat-Şanzıman Çıkış Hız Sensörü-Gevşek Pin Baglantıları-Motor Elektroniği-Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0724",
+    "Arıza Açıklaması": "Tork Konvertör/Fren Dügmesi B Devresi Yüksek",
+    "Olası Nedenler": "Tesisat-Türbin Hız Sensörü-Tork Konvektör/Frenleme Swiçi Gevşek Pin Ve Kablo Baglantıları-HatKesintisi ve Artıya Kısa DevreMotor Elektroniği-Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0725",
+    "Arıza Açıklaması": "Motor Hız Giriş Devresinde Arıza",
+    "Olası Nedenler": "Tesisat-Şanzıman Giriş Hız Sensörü-Motor Elektroniği-Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0726",
+    "Arıza Açıklaması": "Motor Hız Giriş Devresinde Performans",
+    "Olası Nedenler": "Tesisat-Şanzıman Giriş Hız Sensörü"
+  },
+  {
+    "Arıza Kodu": "P0727",
+    "Arıza Açıklaması": "Motor Hız Giriş Devresinde Sinyal Yok",
+    "Olası Nedenler": "Tesisat-Şanzıman Giriş Hız Sensörü-Motor Elektroniği-Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0728",
+    "Arıza Açıklaması": "Motor Hız Giriş Devresinde Aralıklarla",
+    "Olası Nedenler": "Tesisat-Şanzıman Giriş Hız Sensörü-Gevşek Pin Baglantıları-Motor Elektroniği-Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0729",
+    "Arıza Açıklaması": "Yanlış Vites 6 Oranı (Anlamsız)",
+    "Olası Nedenler": "Tesisat-Şanzıman Sınır Sensörü/Swiç – Vites Değiştirme Selonoid-Şanzıman Mekanik Arıza"
+  },
+  {
+    "Arıza Kodu": "P0730",
+    "Arıza Açıklaması": "Yanlış Vites Oranı (Anlamsız)",
+    "Olası Nedenler": "Tesisat-Şanzıman Sınır Sensörü/Swiç – Vites Değiştirme Selonoid-Şanzıman Mekanik Arıza"
+  },
+  {
+    "Arıza Kodu": "P0731",
+    "Arıza Açıklaması": "Yanlış Vites 1 Oranı (Anlamsız)",
+    "Olası Nedenler": "Tesisat-Şanzıman Sınır Sensörü/Swiç – Vites Değiştirme Selonoid-Şanzıman Mekanik Arıza"
+  },
+  {
+    "Arıza Kodu": "P0732",
+    "Arıza Açıklaması": "Yanlış Vites 2 Oranı (Anlamsız)",
+    "Olası Nedenler": "Tesisat-Şanzıman Sınır Sensörü/Swiç – Vites Değiştirme Selonoid-Şanzıman Mekanik Arıza"
+  },
+  {
+    "Arıza Kodu": "P0733",
+    "Arıza Açıklaması": "Yanlış Vites 3 Oranı (Anlamsız)",
+    "Olası Nedenler": "Tesisat-Şanzıman Sınır Sensörü/Swiç – Vites Değiştirme Selonoid-Şanzıman Mekanik Arıza"
+  },
+  {
+    "Arıza Kodu": "P0734",
+    "Arıza Açıklaması": "Yanlış Vites 4 Oranı (Anlamsız)",
+    "Olası Nedenler": "Tesisat-Şanzıman Sınır Sensörü/Swiç – Vites Değiştirme Selonoid-Şanzıman Mekanik Arıza"
+  },
+  {
+    "Arıza Kodu": "P0735",
+    "Arıza Açıklaması": "Yanlış Vites 5 Oranı (Anlamsız)",
+    "Olası Nedenler": "Tesisat-Şanzıman Sınır Sensörü/Swiç – Vites Değiştirme Selonoid-Şanzıman Mekanik Arıza"
+  },
+  {
+    "Arıza Kodu": "P0736",
+    "Arıza Açıklaması": "Geri Vites Yanlış Oran (Anlamsız)",
+    "Olası Nedenler": "Tesisat-Şanzıman Sınır Sensörü/Swiç – Vites Değiştirme Selonoid-Şanzıman Mekanik Arıza"
+  },
+  {
+    "Arıza Kodu": "P0737",
+    "Arıza Açıklaması": "Motor Çıkış Devri ile Şanzıman Çıkış Devri Sinyali Uyumsuz (Anlamsız)",
+    "Olası Nedenler": "Tesisat-Şanzıman Kontrol Ünitesi"
+  },
+  {
+    "Arıza Kodu": "P0738",
+    "Arıza Açıklaması": "Motor Çıkış Devri ile Şanzıman Çıkış Devri Sinyali Düşük",
+    "Olası Nedenler": "Tesisat-Şanzıman Kontrol Ünitesi"
+  },
+  {
+    "Arıza Kodu": "P0739",
+    "Arıza Açıklaması": "Motor Çıkış Devri ile Şanzıman Çıkış Devri Sinyali Yüksek",
+    "Olası Nedenler": "Tesisat-Şanzıman Kontrol Ünitesi"
+  },
+  {
+    "Arıza Kodu": "P0740",
+    "Arıza Açıklaması": "Tork Konvertör Devre Arızası",
+    "Olası Nedenler": "Tesisat-Tork Konvektör Kavraması Selonoid-Motor Elektroniği-Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0741",
+    "Arıza Açıklaması": "Tork Konvertör Sistemi Performans Hatası",
+    "Olası Nedenler": "Tesisat-Tork Konvektör Kavraması Selonoid"
+  },
+  {
+    "Arıza Kodu": "P0742",
+    "Arıza Açıklaması": "Tork Konvertör Kavraması Devresi Yapışıp Kalması",
+    "Olası Nedenler": "Tesisat-Tork Konvektör Kavraması Selonoid"
+  },
+  {
+    "Arıza Kodu": "P0743",
+    "Arıza Açıklaması": "Tork Konvektör Kavrama Sistemi Elektrikli",
+    "Olası Nedenler": "Tesisast-Tork konvektör valfi-Motor elektroniği/Şanzıman Elektroniği/"
+  },
+  {
+    "Arıza Kodu": "P0744",
+    "Arıza Açıklaması": "Tork Konvektör Kavrama Devre Aralıkları",
+    "Olası Nedenler": "Tesisast-Gevşek kablo ve pin baglantıları-Tork konvektör valfi-Motor elektroniği/Şanzıman Elektroniği/"
+  },
+  {
+    "Arıza Kodu": "P0745",
+    "Arıza Açıklaması": "Yağ Basınç Kontrol Selonoid A Arızası",
+    "Olası Nedenler": "Tesisat-Yağ Basınç Kontrol Seleonoid-Motor Elektronoği/Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0746",
+    "Arıza Açıklaması": "Yağ Basınç Kontrol Selonoid A Performans ve ya Yapışıp Çıkması",
+    "Olası Nedenler": "Tesisat-Yağ Basınç Kontrol Seleonoid"
+  },
+  {
+    "Arıza Kodu": "P0747",
+    "Arıza Açıklaması": "Yağ Basınç Kontrol Selonoid A Yapışıp Kalması",
+    "Olası Nedenler": "Tesisat-Yağ Basınç Kontrol Seleonoid"
+  },
+  {
+    "Arıza Kodu": "P0748",
+    "Arıza Açıklaması": "Yağ Basınç Kontrol Selonoid A Elektrikli",
+    "Olası Nedenler": "Tesisat-Yağ Basınç Kontrol Seleonoid-Motor Elektronoği/Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0749",
+    "Arıza Açıklaması": "Yağ Basınç Kontrol Selonoid A Aralıkları",
+    "Olası Nedenler": "Tesisast-Gevşek kablo ve pin baglantıları-Yağ Basınç Kontrol Selonoid -Motor elektroniği/Şanzıman Elektroniği/"
+  },
+  {
+    "Arıza Kodu": "P0750",
+    "Arıza Açıklaması": "Vites Değiştirme Seloid A Arızası Arızası",
+    "Olası Nedenler": "Tesisat-Vites Değiştirme Selonoid-Motor Elektronoği/Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0751",
+    "Arıza Açıklaması": "Vites Değiştirme Seloid A Arızası Performansı",
+    "Olası Nedenler": "Tesisat-Vites Değiştirme Selonoid"
+  },
+  {
+    "Arıza Kodu": "P0752",
+    "Arıza Açıklaması": "Vites Değiştirme Seloid A Arızası Yapışıp Kalması",
+    "Olası Nedenler": "Tesisat-Vites Değiştirme Selonoid"
+  },
+  {
+    "Arıza Kodu": "P0753",
+    "Arıza Açıklaması": "Vites Değiştirme Seloid A Arızası Elektrikli",
+    "Olası Nedenler": "Tesisat-Vites Değiştirme Selonoid-Motor Elektronoği/Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0754",
+    "Arıza Açıklaması": "Vites Değiştirme Seloid A Arızası Aralıklar",
+    "Olası Nedenler": "Tesisast-Gevşek kablo ve pin baglantıları-Vites Değiştirme Selonoid -Motor elektroniği/Şanzıman Elektroniği/"
+  },
+  {
+    "Arıza Kodu": "P0755",
+    "Arıza Açıklaması": "Vites Değiştirme Seloid B Arızası Arızası",
+    "Olası Nedenler": "Tesisat-Vites Değiştirme Selonoid-Motor Elektronoği/Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0756",
+    "Arıza Açıklaması": "Vites Değiştirme Seloid B Arızası Performansı",
+    "Olası Nedenler": "Tesisat-Vites Değiştirme Selonoid"
+  },
+  {
+    "Arıza Kodu": "P0757",
+    "Arıza Açıklaması": "Vites Değiştirme Seloid B Arızası Yapışıp Kalması",
+    "Olası Nedenler": "Tesisat-Vites Değiştirme Selonoid"
+  },
+  {
+    "Arıza Kodu": "P0758",
+    "Arıza Açıklaması": "Vites Değiştirme Seloid B Arızası Elektrikli",
+    "Olası Nedenler": "Tesisat-Vites Değiştirme Selonoid-Motor Elektronoği/Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0759",
+    "Arıza Açıklaması": "Vites Değiştirme Seloid B Arızası Aralıklar",
+    "Olası Nedenler": "Tesisast-Gevşek kablo ve pin baglantıları-Vites Değiştirme Selonoid -Motor elektroniği/Şanzıman Elektroniği/"
+  },
+  {
+    "Arıza Kodu": "P0760",
+    "Arıza Açıklaması": "Vites Değiştirme Seloid C Arızası Arızası",
+    "Olası Nedenler": "Tesisat-Vites Değiştirme Selonoid-Motor Elektronoği/Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0761",
+    "Arıza Açıklaması": "Vites Değiştirme Seloid C Arızası Performansı",
+    "Olası Nedenler": "Tesisat-Vites Değiştirme Selonoid"
+  },
+  {
+    "Arıza Kodu": "P0762",
+    "Arıza Açıklaması": "Vites Değiştirme Seloid C Arızası Yapışıp Kalması",
+    "Olası Nedenler": "Tesisat-Vites Değiştirme Selonoid"
+  },
+  {
+    "Arıza Kodu": "P0763",
+    "Arıza Açıklaması": "Vites Değiştirme Seloid C Arızası Elektrikli",
+    "Olası Nedenler": "Tesisat-Vites Değiştirme Selonoid-Motor Elektronoği/Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0764",
+    "Arıza Açıklaması": "Vites Değiştirme Seloid C Arızası Aralıklar",
+    "Olası Nedenler": "Tesisast-Gevşek kablo ve pin baglantıları-Vites Değiştirme Selonoid -Motor elektroniği/Şanzıman Elektroniği/"
+  },
+  {
+    "Arıza Kodu": "P0765",
+    "Arıza Açıklaması": "Vites Değiştirme Seloid D Arızası Arızası",
+    "Olası Nedenler": "Tesisat-Vites Değiştirme Selonoid-Motor Elektronoği/Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0766",
+    "Arıza Açıklaması": "Vites Değiştirme Seloid D Arızası Performansı",
+    "Olası Nedenler": "Tesisat-Vites Değiştirme Selonoid"
+  },
+  {
+    "Arıza Kodu": "P0767",
+    "Arıza Açıklaması": "Vites Değiştirme Seloid D Arızası Yapışıp Kalması",
+    "Olası Nedenler": "Tesisat-Vites Değiştirme Selonoid"
+  },
+  {
+    "Arıza Kodu": "P0768",
+    "Arıza Açıklaması": "Vites Değiştirme Seloid D Arızası Elektrikli",
+    "Olası Nedenler": "Tesisat-Vites Değiştirme Selonoid-Motor Elektronoği/Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0769",
+    "Arıza Açıklaması": "Vites Değiştirme Seloid D Arızası Aralıklar",
+    "Olası Nedenler": "Tesisast-Gevşek kablo ve pin baglantıları-Vites Değiştirme Selonoid -Motor elektroniği/Şanzıman Elektroniği/"
+  },
+  {
+    "Arıza Kodu": "P0770",
+    "Arıza Açıklaması": "Vites Değiştirme Seloid E Arızası Arızası",
+    "Olası Nedenler": "Tesisat-Vites Değiştirme Selonoid-Motor Elektronoği/Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0771",
+    "Arıza Açıklaması": "Vites Değiştirme Seloid E Arızası Performansı",
+    "Olası Nedenler": "Tesisat-Vites Değiştirme Selonoid"
+  },
+  {
+    "Arıza Kodu": "P0772",
+    "Arıza Açıklaması": "Vites Değiştirme Seloid E Arızası Yapışıp Kalması",
+    "Olası Nedenler": "Tesisat-Vites Değiştirme Selonoid"
+  },
+  {
+    "Arıza Kodu": "P0773",
+    "Arıza Açıklaması": "Vites Değiştirme Seloid E Arızası Elektrikli",
+    "Olası Nedenler": "Tesisat-Vites Değiştirme Selonoid-Motor Elektronoği/Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0774",
+    "Arıza Açıklaması": "Vites Değiştirme Seloid E Arızası Aralıklar",
+    "Olası Nedenler": "Tesisast-Gevşek kablo ve pin baglantıları-Vites Değiştirme Selonoid -Motor elektroniği/Şanzıman Elektroniği/"
+  },
+  {
+    "Arıza Kodu": "P0775",
+    "Arıza Açıklaması": "Basınç Kontrol Selonoid B Arızası",
+    "Olası Nedenler": "Tesisat-Yağ Basınç Kontrol Seleonoid"
+  },
+  {
+    "Arıza Kodu": "P0776",
+    "Arıza Açıklaması": "Basınç Kontrol Selonoid B Performans ve ya Yapışıp Çıkması",
+    "Olası Nedenler": "Tesisat-Yağ Basınç Kontrol Seleonoid"
+  },
+  {
+    "Arıza Kodu": "P0777",
+    "Arıza Açıklaması": "Basınç Kontrol Selonoid B Yapışıp Kalması",
+    "Olası Nedenler": "Tesisat-Yağ Basınç Kontrol Seleonoid"
+  },
+  {
+    "Arıza Kodu": "P0778",
+    "Arıza Açıklaması": "Basınç Kontrol Selonoid B Elektrikli",
+    "Olası Nedenler": "Tesisat-Yağ Basınç Kontrol Seleonoid"
+  },
+  {
+    "Arıza Kodu": "P0779",
+    "Arıza Açıklaması": "Basınç Kontrol Selonoid B Aralıkları",
+    "Olası Nedenler": "Tesisast-Gevşek kablo ve pin baglantıları-Yağ Basınç Kontrol Selonoid"
+  },
+  {
+    "Arıza Kodu": "P0780",
+    "Arıza Açıklaması": "Vites Değiştirme Arızası (Hatası)",
+    "Olası Nedenler": "Tesisat-Vites değiştirme kolu-Vites değiştirme selonoid-Şanzımanda Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0781",
+    "Arıza Açıklaması": "1-2 Vites Değiştirme Hatası",
+    "Olası Nedenler": "Tesisat-Vites değiştirme kolu-Vites değiştirme selonoid-Şanzımanda Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0782",
+    "Arıza Açıklaması": "2-3 Vites Değiştirme Hatası",
+    "Olası Nedenler": "Tesisat-Vites değiştirme kolu-Vites değiştirme selonoid-Şanzımanda Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0783",
+    "Arıza Açıklaması": "3-4 Vites Değiştirme Hatası",
+    "Olası Nedenler": "Tesisat-Vites değiştirme kolu-Vites değiştirme selonoid-Şanzımanda Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0784",
+    "Arıza Açıklaması": "4-5 Vites Değiştirme Hatası",
+    "Olası Nedenler": "Tesisat-Vites değiştirme kolu-Vites değiştirme selonoid-Şanzımanda Mekanik Hata"
+  },
+  {
+    "Arıza Kodu": "P0785",
+    "Arıza Açıklaması": "Vites Değiştirme / Zamanlama Selonoid Arızası",
+    "Olası Nedenler": "Tesisat-Vites Değiştirme Selonoid-Motor Elektronoği/Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0786",
+    "Arıza Açıklaması": "Vites Değiştirme / Zamanlama Selonoid Sınırı / Performansı",
+    "Olası Nedenler": "Tesisat-Vites Değiştirme Selonoid"
+  },
+  {
+    "Arıza Kodu": "P0787",
+    "Arıza Açıklaması": "Vites Değiştirme / Zamanlama Selonoid Düşük Sinyal",
+    "Olası Nedenler": "Tesisat-Hat kesik veya Şaseye Kısa devre-Vites Değiştirme Selonoid-Motor Elektronoği/Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0788",
+    "Arıza Açıklaması": "Vites Değiştirme / Zamanlama Selonoid Yüksek Sinyal",
+    "Olası Nedenler": "Tesisat-Hat kesik veya Artıya Kısa devre-Vites Değiştirme Selonoid-Motor Elektronoği/Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0789",
+    "Arıza Açıklaması": "Vites Değiştirme / Zamanlama Selonoid Aralıkları",
+    "Olası Nedenler": "Tesisat-Hat kesik veya gevşek pin baglantıları-Vites Değiştirme Selonoid-Motor Elektronoği/Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0790",
+    "Arıza Açıklaması": "Mod Düğmesi Devre Arızası",
+    "Olası Nedenler": "Tesisat-Mod Dügme Selonoid veya swiçi-Motor Elektroniği-Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0791",
+    "Arıza Açıklaması": "Şanzıman Tahrik Çıkış Sensör Devresinde Hata",
+    "Olası Nedenler": "Tesisat -Pin Baglantıları-Tahrik çıkış sensörü-Motor Elektroniği-Şanzıman Elektroniği"
+  },
+  {
+    "Arıza Kodu": "P0792",
+    "Arıza Açıklaması": "Şanzıman Tahrik Çıkış Sensör Devresinde Sınırlı/Performans",
+    "Olası Nedenler": "Tesisat -Pin Baglantıları-Tahrik çıkış sensörü-Motor Elektroniği-Şanzıman Elektroniği"
+  }
+]
