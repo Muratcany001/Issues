@@ -1,0 +1,87 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPQjh2aFYq13tlX7+rYmqEq",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Muratcany001/Issues/blob/main/2.HaftaSoru1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Z0Qdc91fMDSC",
+        "outputId": "da6c6763-be04-45d3-d421-122877fdc533"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[[3 0 0]\n",
+            " [0 3 4]\n",
+            " [0 0 9]]\n",
+            "              precision    recall  f1-score   support\n",
+            "\n",
+            "           0       1.00      1.00      1.00         3\n",
+            "           1       1.00      0.43      0.60         7\n",
+            "           2       0.69      1.00      0.82         9\n",
+            "\n",
+            "    accuracy                           0.79        19\n",
+            "   macro avg       0.90      0.81      0.81        19\n",
+            "weighted avg       0.85      0.79      0.77        19\n",
+            "\n"
+          ]
+        }
+      ],
+      "source": [
+        "import pandas as pd\n",
+        "from sklearn.model_selection import train_test_split\n",
+        "from sklearn.ensemble import RandomForestClassifier\n",
+        "from sklearn.metrics import classification_report, confusion_matrix\n",
+        "\n",
+        "# 1) Veri Yükleme\n",
+        "df = pd.read_csv(\"/content/telefon.csv\")  # <-- kendi dosya adını yaz\n",
+        "\n",
+        "# 2) Hedef ve Özellikleri Ayırma\n",
+        "X = df.drop(columns=[\"price_range\"])  # <-- hedef sütunu ismini düzenle\n",
+        "y = df[\"price_range\"]\n",
+        "\n",
+        "# 3) Eğitim-Test Böl\n",
+        "X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n",
+        "\n",
+        "# 4) Model Eğit\n",
+        "model = RandomForestClassifier(random_state=42)\n",
+        "model.fit(X_train, y_train)\n",
+        "\n",
+        "# 5) Sonuçlar\n",
+        "y_pred = model.predict(X_test)\n",
+        "print(confusion_matrix(y_test, y_pred))\n",
+        "print(classification_report(y_test, y_pred))\n"
+      ]
+    }
+  ]
+}
